@@ -1,0 +1,1423 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2010.12.7)  7 DEC 2010 17:51
+entering extended mode
+**algorithms.tex
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithms.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2010/10/30 v6.81t Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty"
+Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
+s (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty"
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty"
+Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2010/10/30 v6.81t Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty"
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+\Hy@SavedSpaceFactor=\count89
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 3976.
+Package hyperref Info: Link nesting OFF on input line 3981.
+Package hyperref Info: Hyper index ON on input line 3984.
+Package hyperref Info: Plain pages OFF on input line 3991.
+Package hyperref Info: Backreferencing OFF on input line 3996.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4211.
+\c@Hy@tempcnt=\count90
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4566.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty"
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty"
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count91
+\Field@Width=\dimen104
+\Fld@charsize=\dimen105
+Package hyperref Info: Hyper figures OFF on input line 5626.
+Package hyperref Info: Link nesting OFF on input line 5631.
+Package hyperref Info: Hyper index ON on input line 5634.
+Package hyperref Info: backreferencing OFF on input line 5641.
+Package hyperref Info: Link coloring OFF on input line 5646.
+Package hyperref Info: Link coloring with OCG OFF on input line 5651.
+Package hyperref Info: PDF/A mode OFF on input line 5656.
+LaTeX Info: Redefining \ref on input line 5696.
+LaTeX Info: Redefining \pageref on input line 5700.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
+)
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2010/10/30 v6.81t Hyperref driver for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty"
+Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty"
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+71.
+)
+\Hy@SectionHShift=\skip43
+)
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithm.sty
+Package: algorithm 
+
+Document Style `algorithm' - floating environment
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks19
+\c@algorithm=\count98
+)
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithmic.sty
+Package: algorithmic 2006/06/02
+
+Document Style `algorithmic' - environment
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count99
+\calc@Bcount=\count100
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count101
+\calc@Cskip=\skip46
+)
+\c@ALC@line=\count102
+\c@ALC@rem=\count103
+\c@ALC@depth=\count104
+\ALC@tlm=\skip47
+\algorithmicindent=\skip48
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip49
+\thm@postskip=\skip50
+\thm@headsep=\skip51
+\dth@everypar=\toks25
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count105
+\mult@box=\box28
+\multicol@leftmargin=\dimen108
+\c@unbalance=\count106
+\c@collectmore=\count107
+\doublecol@number=\count108
+\multicoltolerance=\count109
+\multicolpretolerance=\count110
+\full@width=\dimen109
+\page@free=\dimen110
+\premulticols=\dimen111
+\postmulticols=\dimen112
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box29
+\last@line=\box30
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count111
+\c@finalcolumnbadness=\count112
+\last@try=\dimen113
+\multicolovershoot=\dimen114
+\multicolundershoot=\dimen115
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+)
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithms.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 43.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring OFF on input line 43.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithms.out)
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithms.out)
+\@outlinefile=\write3
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 46.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 46.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 46.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 46.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 46.
+
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithms.toc
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 4.
+)
+\tf@toc=\write4
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 71.
+
+Overfull \hbox (48.74886pt too wide) in paragraph at lines 125--125
+[]\T1/lmtt/m/n/10 \IF{<condition1>} <text1> \ELSIF{<condition2>} <text2> \ELSE 
+<text3> \ENDIF[] 
+ []
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{ALC@rem.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.128 \begin{verbatim}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{ALC@line.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.128 \begin{verbatim}
+                      ]pdfTeX warning (ext4): destination with the same identif
+ier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.143   \IF{some condition is true}
+                                   pdfTeX warning (ext4): destination with the 
+same identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.143   \IF{some condition is true}
+                                   pdfTeX warning (ext4): destination with the 
+same identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172   \FOR{$i=0$ to $10$}
+                           pdfTeX warning (ext4): destination with the same ide
+ntifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172   \FOR{$i=0$ to $10$}
+                            [3pdfTeX warning (ext4): destination with the same 
+identifier (name{ALC@rem.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.177 \begin{verbatim}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{ALC@line.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.177 \begin{verbatim}
+                      ]pdfTeX warning (ext4): destination with the same identif
+ier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186   \FORALL{$i$ such that $0\leq i\leq 10$}
+                                               pdfTeX warning (ext4): destinati
+on with the same identifier (name{ALC@line.1}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.186   \FORALL{$i$ such that $0\leq i\leq 10$}
+                                               pdfTeX warning (ext4): destinati
+on with the same identifier (name{ALC@rem.1}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.187     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@line.2}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.187     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@rem.1}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.188   \ENDFOR
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.188   \ENDFOR
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.207   \WHILE{some condition holds}
+                                    pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.207   \WHILE{some condition holds}
+                                    pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@rem.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.208     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@line.2}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.208     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@rem.3}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.209   \ENDWHILE
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209   \ENDWHILE
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.229     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@line.1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.229     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@rem.2}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.229     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@line.2}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.229     \STATE
+                 carry out some processingpdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@rem.3}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.230   \UNTIL{some condition is met}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.230   \UNTIL{some condition is met}
+                                      [4pdfTeX warning (ext4): destination with
+ the same identifier (name{ALC@rem.3}) has been already used, duplicate ignored
+
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.236 \begin{verbatim}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{ALC@line.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.236 \begin{verbatim}
+                      ]pdfTeX warning (ext4): destination with the same identif
+ier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.250     \STATE
+                 this processing will be repeated foreverpdfTeX warning (ext4):
+ destination with the same identifier (name{ALC@line.1}) has been already used,
+ duplicate ignored
+<to be read again> 
+                   \relax 
+l.250     \STATE
+                 this processing will be repeated foreverpdfTeX warning (ext4):
+ destination with the same identifier (name{ALC@rem.2}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.250     \STATE
+                 this processing will be repeated foreverpdfTeX warning (ext4):
+ destination with the same identifier (name{ALC@line.2}) has been already used,
+ duplicate ignored
+<to be read again> 
+                   \relax 
+l.250     \STATE
+                 this processing will be repeated foreverpdfTeX warning (ext4):
+ destination with the same identifier (name{ALC@rem.3}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.251   \ENDLOOP
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.251   \ENDLOOP
+                 [5]pdfTeX warning (ext4): destination with the same identifier
+ (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.305   \RETURN
+                $(x+y)/2$pdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.305   \RETURN
+                $(x+y)/2$pdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.328   \IF{$n$ is odd}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.328   \IF{$n$ is odd}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{ALC@rem.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.329      \RETURN
+                   \TRUEpdfTeX warning (ext4): destination with the same identi
+fier (name{ALC@line.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.329      \RETURN
+                   \TRUEpdfTeX warning (ext4): destination with the same identi
+fier (name{ALC@rem.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331      \RETURN
+                   \FALSEpdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331      \RETURN
+                   \FALSEpdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@rem.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331      \RETURN
+                   \FALSEpdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@line.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.331      \RETURN
+                   \FALSEpdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@rem.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.332   \ENDIF
+              pdfTeX warning (ext4): destination with the same identifier (name
+{ALC@line.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.332   \ENDIF
+              pdfTeX warning (ext4): destination with the same identifier (name
+{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.351   \PRINT
+               \texttt{``Hello, World!''}pdfTeX warning (ext4): destination wit
+h the same identifier (name{ALC@line.1}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.351   \PRINT
+               \texttt{``Hello, World!''} [6]pdfTeX warning (ext4): destination
+ with the same identifier (name{ALC@rem.1}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.368   \STATE
+               do something \COMMENT{this is a comment}pdfTeX warning (ext4): d
+estination with the same identifier (name{ALC@line.1}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.368   \STATE
+               do something \COMMENT{this is a comment}pdfTeX warning (ext4): d
+estination with the same identifier (name{ALC@rem.1}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.378   \REPEAT[this is comment number one]
+                                           pdfTeX warning (ext4): destination w
+ith the same identifier (name{ALC@line.1}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.378   \REPEAT[this is comment number one]
+                                           pdfTeX warning (ext4): destination w
+ith the same identifier (name{ALC@rem.2}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.379 ...comment number two]{condition one is met}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{ALC@line.2}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.379 ...comment number two]{condition one is met}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{ALC@rem.3}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.380   \STATE
+               do somethingpdfTeX warning (ext4): destination with the same ide
+ntifier (name{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.380   \STATE
+               do somethingpdfTeX warning (ext4): destination with the same ide
+ntifier (name{ALC@rem.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.381 ...mment number three]{condition two is met}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{ALC@line.4}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.381 ...mment number three]{condition two is met}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{ALC@rem.5}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.382   \STATE
+               do something elsepdfTeX warning (ext4): destination with the sam
+e identifier (name{ALC@line.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.382   \STATE
+               do something elsepdfTeX warning (ext4): destination with the sam
+e identifier (name{ALC@rem.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.383     \ELSE[this is comment number four]
+                                            pdfTeX warning (ext4): destination 
+with the same identifier (name{ALC@line.6}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.383     \ELSE[this is comment number four]
+                                            pdfTeX warning (ext4): destination 
+with the same identifier (name{ALC@rem.7}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.384   \STATE
+               do nothingpdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@line.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.384   \STATE
+               do nothingpdfTeX warning (ext4): destination with the same ident
+ifier (name{ALC@rem.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.385     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@line.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.385     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@rem.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.386   \UNTIL{hell freezes over}
+                                 pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@line.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.386   \UNTIL{hell freezes over}
+                                  [7]pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.416   \STATE
+               $y \Leftarrow 1$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.416   \STATE
+               $y \Leftarrow 1$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.417   \STATE
+               $X \Leftarrow x$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.417   \STATE
+               $X \Leftarrow x$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.418   \STATE
+               $N \Leftarrow n$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.418   \STATE
+               $N \Leftarrow n$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.419   \WHILE{$N \neq 0$}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{ALC@line.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.419   \WHILE{$N \neq 0$}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{ALC@rem.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.420     \IF{$N$ is even}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{ALC@line.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.420     \IF{$N$ is even}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{ALC@rem.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.421       \STATE
+                   $X \Leftarrow X \times X$pdfTeX warning (ext4): destination 
+with the same identifier (name{ALC@line.6}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.421       \STATE
+                   $X \Leftarrow X \times X$pdfTeX warning (ext4): destination 
+with the same identifier (name{ALC@rem.7}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.422       \STATE
+                   $N \Leftarrow N / 2$pdfTeX warning (ext4): destination with 
+the same identifier (name{ALC@line.7}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.422       \STATE
+                   $N \Leftarrow N / 2$pdfTeX warning (ext4): destination with 
+the same identifier (name{ALC@rem.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.423     \ELSE[$N$ is odd]
+                           pdfTeX warning (ext4): destination with the same ide
+ntifier (name{ALC@line.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.423     \ELSE[$N$ is odd]
+                           pdfTeX warning (ext4): destination with the same ide
+ntifier (name{ALC@rem.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.424       \STATE
+                   $y \Leftarrow y \times X$pdfTeX warning (ext4): destination 
+with the same identifier (name{ALC@line.9}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.424       \STATE
+                   $y \Leftarrow y \times X$ [8]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{ALC@rem.1}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.471   \STATE
+               $a \Leftarrow 1$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.471   \STATE
+               $a \Leftarrow 1$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.472   \IF{$a$ is even}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{ALC@line.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.472   \IF{$a$ is even}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.473     \PRINT
+                 ``$a$ is even''pdfTeX warning (ext4): destination with the sam
+e identifier (name{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.473     \PRINT
+                 ``$a$ is even''pdfTeX warning (ext4): destination with the sam
+e identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.475     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.475     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.475     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.475     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.476   \ENDIF
+              pdfTeX warning (ext4): destination with the same identifier (name
+{ALC@line.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.476   \ENDIF
+              pdfTeX warning (ext4): destination with the same identifier (name
+{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.492   \STATE
+               $a \Leftarrow 1$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.492   \STATE
+               $a \Leftarrow 1$pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.493   \IF{$a$ is even}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{ALC@line.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.493   \IF{$a$ is even}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.494     \PRINT
+                 ``$a$ is even''pdfTeX warning (ext4): destination with the sam
+e identifier (name{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.494     \PRINT
+                 ``$a$ is even''pdfTeX warning (ext4): destination with the sam
+e identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.496     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.496     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.496     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@line.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.496     \PRINT
+                 ``$a$ is odd''pdfTeX warning (ext4): destination with the same
+ identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.497   \ENDIF
+              pdfTeX warning (ext4): destination with the same identifier (name
+{ALC@line.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.497   \ENDIF
+               [9]pdfTeX warning (ext4): destination with the same identifier (
+name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.560    \STATE
+                $i \leftarrow 10$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.560    \STATE
+                $i \leftarrow 10$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.561    \RETURN
+                 $i$pdfTeX warning (ext4): destination with the same identifier
+ (name{ALC@line.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.561    \RETURN
+                 $i$ [10]
+Overfull \hbox (17.24895pt too wide) in paragraph at lines 594--594
+[]\T1/lmtt/m/n/10 \newcommand{\algorithmicendwhile}{\algorithmicend\ \algorithm
+icwhile}[] 
+ []
+
+
+Overfull \hbox (6.74898pt too wide) in paragraph at lines 594--594
+[]\T1/lmtt/m/n/10 \newcommand{\algorithmicendloop}{\algorithmicend\ \algorithmi
+cloop}[] 
+ []
+
+
+Overfull \hbox (8.24892pt too wide) in paragraph at lines 616--619
+\T1/lmr/m/n/10 Comments pro-duced this way would be like this:                 
+                      
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{ALC@rem.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.619   \STATE
+               $i \leftarrow i +1$ \COMMENT{Increments $i$}pdfTeX warning (ext4
+): destination with the same identifier (name{ALC@line.1}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \relax 
+l.619   \STATE
+               $i \leftarrow i +1$ \COMMENT{Increments $i$} [11]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 676.
+pdfTeX warning (ext4): destination with the same identifier (name{ALC@rem.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.682     \STATE
+                 $y \Leftarrow 1$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.682     \STATE
+                 $y \Leftarrow 1$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@rem.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.683     \IF{$n < 0$}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{ALC@line.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.683     \IF{$n < 0$}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{ALC@rem.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.684        \STATE
+                    $X \Leftarrow 1 / x$pdfTeX warning (ext4): destination with
+ the same identifier (name{ALC@line.3}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.684        \STATE
+                    $X \Leftarrow 1 / x$pdfTeX warning (ext4): destination with
+ the same identifier (name{ALC@rem.4}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.685        \STATE
+                    $N \Leftarrow -n$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@line.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.685        \STATE
+                    $N \Leftarrow -n$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@rem.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687        \STATE
+                    $X \Leftarrow x$pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@line.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687        \STATE
+                    $X \Leftarrow x$pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@rem.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687        \STATE
+                    $X \Leftarrow x$pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@line.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.687        \STATE
+                    $X \Leftarrow x$pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@rem.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.688        \STATE
+                    $N \Leftarrow n$pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@line.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.688        \STATE
+                    $N \Leftarrow n$pdfTeX warning (ext4): destination with the
+ same identifier (name{ALC@rem.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.689     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@line.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.689     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@rem.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.691     \WHILE{$N \neq 0$}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{ALC@line.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.691     \WHILE{$N \neq 0$}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{ALC@rem.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.692       \IF{$N$ is even}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{ALC@line.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.692       \IF{$N$ is even}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{ALC@rem.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.693         \STATE
+                     $X \Leftarrow X \times X$pdfTeX warning (ext4): destinatio
+n with the same identifier (name{ALC@line.11}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.693         \STATE
+                     $X \Leftarrow X \times X$pdfTeX warning (ext4): destinatio
+n with the same identifier (name{ALC@rem.12}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.694         \STATE
+                     $N \Leftarrow N / 2$pdfTeX warning (ext4): destination wit
+h the same identifier (name{ALC@line.12}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.694         \STATE
+                     $N \Leftarrow N / 2$ [12] [13]
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 749.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)pdfTeX warning (ext4): destination with the same identifier (name{ALC@rem.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.786     \STATE
+                 $y \Leftarrow 1$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@line.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.786     \STATE
+                 $y \Leftarrow 1$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.787     \IF{$n < 0$}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{ALC@line.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.787     \IF{$n < 0$}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.788     \STATE
+                 $X \Leftarrow 1 / x$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@line.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.788     \STATE
+                 $X \Leftarrow 1 / x$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.789     \STATE
+                 $N \Leftarrow -n$pdfTeX warning (ext4): destination with the s
+ame identifier (name{ALC@line.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.789     \STATE
+                 $N \Leftarrow -n$pdfTeX warning (ext4): destination with the s
+ame identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.791     \STATE
+                 $X \Leftarrow x$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@line.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.791     \STATE
+                 $X \Leftarrow x$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.791     \STATE
+                 $X \Leftarrow x$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@line.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.791     \STATE
+                 $X \Leftarrow x$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.792     \STATE
+                 $N \Leftarrow n$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@line.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.792     \STATE
+                 $N \Leftarrow n$pdfTeX warning (ext4): destination with the sa
+me identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.793     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@line.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.793     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794     \WHILE{$N \neq 0$}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{ALC@line.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794     \WHILE{$N \neq 0$}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.795     \IF{$N$ is even}
+                          \label{alg:n-is-even}pdfTeX warning (ext4): destinati
+on with the same identifier (name{ALC@line.10}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.795     \IF{$N$ is even}
+                          \label{alg:n-is-even}pdfTeX warning (ext4): destinati
+on with the same identifier (name{ALC@rem.1}) has been already used, duplicate 
+ignored
+<to be read again> 
+                   \relax 
+l.796     \STATE
+                 $X \Leftarrow X \times X$pdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@line.11}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.796     \STATE
+                 $X \Leftarrow X \times X$pdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@rem.1}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.797     \STATE
+                 $N \Leftarrow N / 2$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@line.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.797     \STATE
+                 $N \Leftarrow N / 2$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.798     \ELSE\label
+                     {alg:n-is-odd}pdfTeX warning (ext4): destination with the 
+same identifier (name{ALC@line.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.798     \ELSE\label
+                     {alg:n-is-odd}pdfTeX warning (ext4): destination with the 
+same identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.799     \STATE
+                 $y \Leftarrow y \times X$pdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@line.14}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.799     \STATE
+                 $y \Leftarrow y \times X$pdfTeX warning (ext4): destination wi
+th the same identifier (name{ALC@rem.1}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.800     \STATE
+                 $N \Leftarrow N - 1$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@line.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.800     \STATE
+                 $N \Leftarrow N - 1$pdfTeX warning (ext4): destination with th
+e same identifier (name{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.801     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@line.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.801     \ENDIF
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{ALC@rem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.802     \ENDWHILE
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{ALC@line.17}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.802     \ENDWHILE
+                    [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 843.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 843.
+
+(C:\Users\xochilt\Desktop\MarioTesis\algorithms\algorithms.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 843.
+
+
+Package rerunfilecheck Warning: File `algorithms.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `algorithms.out':
+(rerunfilecheck)             Before: 2EA31667652E7A83837581E07D281223;1292
+(rerunfilecheck)             After:  CE917975137F42F20EF17BB87660C377;1393.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5036 strings out of 494019
+ 76294 string characters out of 3143876
+ 149223 words of memory out of 3000000
+ 8131 multiletter control sequences out of 15000+200000
+ 71757 words of font info for 52 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 31i,11n,31p,246b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
+12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmtt8.pfb>
+Output written on algorithms.pdf (15 pages, 430255 bytes).
+PDF statistics:
+ 344 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+
