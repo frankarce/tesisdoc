@@ -22,6 +22,7 @@
 \usepackage{amssymb,amsmath}
 \usepackage{multicol}
 
+
 %%%%%
 %%%%%Editen el archivo texmf/tex/generic/config/laguange.dat
 
@@ -135,7 +136,7 @@
 	%\textsc{\large Maestría en Ciencias en Ciencias de la Computación}\\[1.0cm]
 	% Title
 	%\HRule \\[.2cm]
-	{ \LARGE \bfseries Sistema de recomendación de restaurantes basado en lógica difusa y técnicas de filtrado colaborativo}\\[1.5cm]
+	{ \LARGE \bfseries SECUENCIADO ADAPTATIVO DE OBJETOS DE APRENDIZAJE EN AMBIENTES INTELIGENTES}\\[1.5cm]
 	%\HRule \\[.2cm]
 	\begin{minipage}{1.0\textwidth}
 	\begin{flushright} 
@@ -144,15 +145,15 @@
 	% Author and supervisor
 	%\vspace{5 mm}
 	%\emph{}
-	\textsc{ Xochilt Ramírez García}	\\
+	\textsc{ Francisco Javier Arce Cárdenas}	\\
 	\vspace{5 mm}
 	\emph{Para obtener el grado de:} \\
-	\textsc{Maestría en Ciencias  \\ en Ciencias de la Computación} \\
+	\textsc{Doctor en Ciencias  de la Computación} \\
 	\vspace{5 mm}
 	\emph{Director:} \\
 	\textsc{Dr. José Mario García Valdez} \\
 	\vspace{5 mm}
-	\emph{Tijuana, B.C. Febrero del 2011.}
+	\emph{Tijuana, B.C. XXXXXX del 20XX.}
 	\end{flushright}
 	\end{minipage}
 	\vspace{13 mm}
@@ -184,39 +185,33 @@
 
 \frontmatter
 \begin{abstract}
-	Los sistemas de recomendación actualmente son una técnica de filtrado que facilita a los usuarios la búsqueda de información en Internet, especialmente en tiendas virtuales. Son una herramienta  de gran utilidad en los procesos de ventas del comercio electrónico, debido a que proporcionan un valor añadido a los sitios Web comerciales que permite la fidelidad de los clientes. Este es uno de los principales beneficios que esta tecnología ha aportado. 
-	En el turismo,  el uso de plataformas basadas en la Web ha tenido una gran difusión debido a su facilidad para integrar sus procesos en modelos Web que implementan algoritmos de recomendación para mejorar la navegación de sus clientes.
-	El sistema de recomendación híbrido que se desarrolló en esta investigación aportó beneficios a usuarios que gustan de visitar restaurantes. En la arquitectura se propuso la implementación de dos técnicas de recomendación: filtrado colaborativo y basado en contenido, basados principalmente en información que aportó el usuario al sistema (valoraciones).
-Se propuso utilizar información subjetiva mediante un sistema de inferencia difuso para definir la recomendación a través de reglas y atributos difusos que involucren el perfil del usuario y el perfil de  restaurantes. Este sistema fué desarrollado para la ciudad de Tijuana pero se puede adaptar fácilmente a otras ciudades.
+	
 \end{abstract}
 
 \clearpage
 
 \renewcommand{\abstractname} {Abstract}
 \begin{abstract}
-Recommender systems are a filtering technique that help users to find information on Internet, especially in e-commerce. They are a useful tool in e-commerce sales, allows customer loyalty on commercial Web sites.
-In tourism, the great use of Web-based platforms because is easy to adapted in  process for Web models that implement recommender algorithms to improve customer's navigation.
-The hybrid recommender system developed in this research brings benefits to users love to visit restaurants. The architecture proposes to use two recommender techniques: collaborative filtering  and based content, based in user's ratings both algorithms.
-Using subjective information in fuzzy inference system that defines the recommendation through rules and fuzzy attributes involved the user's profile and restaurant's profile. This system is developed for Tijuana, however can be adapted other cities.
+Learning environments are places or spaces where the learning process is given; they can be classrooms, museums and etcetera.  Instead of intelligent learning environments besides being places where the process of learning takes place using devices that help improve this process. The update and emergence of new technologies changed the traditional methods for learning in intelligent learning environments, as interactive tables, more powerful smartphones, tablet pcs, cameras and cameras that perceive depth (kinect). In this work we propose a new approach and the personalization of learning objects that we will call environmental learning object which can be interchanged between (adapted to) different learning environments. These learning objects will embody packages of didactic resources together with rules for device assignment and composition and deploy them on an intelligent learning environment in which we will use a single extension of the simple sequencing standard.
 \end{abstract}
 
 \clearpage
 
 \section*{Agradecimientos\markboth{}{}}
 \paragraph{}
-Agradezco a mis padres por su paciencia y cariño, todo este esfuerzo es por ellos.
+...
 \paragraph{}
-A mis hermanos Antonio, Maribel, Rosy, Neli, Jose Manuel por estar siempre conmigo apoyando mis decisiones.
+...
 \paragraph{}
-Agradezco a mis primos el ánimo, Rogelio y Luis Alberto, a mis tíos Andrés y Alfonsa, gracias por su cariño.
+...
 \paragraph{}
-A mis amigos Janeth, Maribel, Gladys, Cesar, Lorenzo, a mis amigas a distancia: Arisay, Karina, Cinthy, gracias por el apoyo y amistad de tantos años.
+....
 \paragraph{}
-Agradezco a mis compañeros por las experiencias durante estos dos años, San Juana, Rosalinda, Leticia, Yuliana, Natanael y Herman, gracias por la amistad y compañerismo.
+...
 \paragraph{}
-Agradezco su confianza a todos los profesores de la maestría de quienes obtuve mucho más que conocimientos, Dr. José Soria, Dr. Oscar Castillo, Dr. Arnulfo Alanis,  Dra. Patricia Melin, Dr. Miguel Angel López, Dr. Leonardo Trujillo, M.C.C. Alejandra Mancilla, mi admiración y respeto. En especial quiero agradecer  a mi director de tesis Dr. José Mario García Valdéz por su paciencia, tiempo, apoyo y comprensión. 
+....
 \paragraph{}
-Finalmente mi agradecimiento a ConaCyt por el apoyo otorgado para mis estudios de postgrado.
+...
 \clearpage
 
 \tableofcontents* 
@@ -231,60 +226,36 @@ Finalmente mi agradecimiento a ConaCyt por el apoyo otorgado para mis estudios d
 
 \chapter{Introducción}
 
-Antes de la llegada de Internet un consumidor de cualquier tipo de producto tenía un acceso limitado a la información relacionada tanto al producto como con otras posibles opciones. La publicidad se convertía así en el único medio para dar a conocer un producto y el problema del usuario era la forma de conseguir información veraz. 
+A learning environment is defined as a \textit{place} or \textit{space} where the process of knowledge acquisition occurs. Learning environments are those areas where conditions are created for the individual to appropriate new knowledge, new experiences, new elements that generate processes of analysis, reflection and appropriation.  
 \paragraph{}
-Actualmente la situación es invertida totalmente,  de la escasez de información se pasa a la saturación, de disponer de algunas estanterías con CDs y  videos en el centro comercial más cercano se ha pasado a tener acceso a una cantidad inagotable de creaciones culturales en tiendas en línea o \textit{redes punto a punto} (P2P por sus siglas en inglés). Ahora el problema se ha tornado en separar lo que necesita y lo que no necesita el usuario \cite{GalanNieto1994}.
+Some of these systems use learning resources called learning objects. A learning object defined by \cite{Willey 2000} as digital or non- digital entities, which can be used to promote learning, education or entertainment. Standard initiatives have been proposed to promote the exchange of learning objects between learning management systems (LMS?s) these are used in repositories, and several systems \cite{LMS 2}.   
 \paragraph{}
-Los sistemas de recomendación han ayudado a mejorar la búsqueda de información en Internet \cite{Rucker1997}.  %Checar y agregar una referencia que lo confirme.
-El mayor impacto de esta tecnología es precisamente en el comercio electrónico. Las compañías involucradas en el comercio electrónico ofrecían una gran variedad de productos, con el objetivo de satisfacer a miles o millones de potenciales clientes \cite{GarciaGil2007}.\\
-Anteriormente solo se impulsaron en Internet las tiendas virtuales para mejorar ventas de las empresas, el objetivo fue poner al alcance de los usuarios información que solo tenían disponible en los establecimientos.  
+For the exchange of learning objects between systems standardization initiatives have been developed and there are some implementations and repositories that manage the content using these standards. Learning objects usually have the following characteristics are self-contained, each learning object can be used independently, are reusable, a learning object can be used in different contexts, can be added, learning objects can be grouped into collections and are labeled with metadata.   
 \paragraph{}
-Para los usuarios debería ser una ventaja, ya que no tenía necesidad de acudir a los establecimientos para encontrar los productos que cubrieran sus expectativas, sin embargo, esta amplia variedad  también tiene inconvenientes, pues cada consulta del usuario obtiene respuesta de miles de productos relacionados a la consulta, de los cuales muy pocos cubrían las expectativas del usuario. La búsqueda entonces se volvía tediosa y optaban por regresar a las tiendas tradicionales, evidentemente,  no se obtuvieron los beneficios esperados del comercio electrónico.
-\paragraph{}
-Es aquí donde los sistemas de recomendación juegan un papel importante, buscan solucionar el problema de la saturación de información en Internet, es la tecnología que mayor éxito ha tenido \cite{Balabanovic1997, BarrancoM.J;Mata2008, DeCamposLuis2008, Houstis2002, Meteren2001, Terveen1997, Espinilla2009, Wang2004}, estos sistemas son una herramienta que facilita al usuario la búsqueda en tiendas electrónicas. 
-\paragraph{}
-Existen varias técnicas de recomendación enfocadas al mismo objetivo \cite{Burke2002}, guiando al usuario hacia productos que le interesan, estas las menciono más adelante.
-\paragraph{} 
-El impacto de los sistemas de recomendación en la Web ha sido aceptado por miles de usuarios como una tecnología muy práctica y fácil de usar para beneficiarse de ella,  ha mejorado los sitios de comercio electrónico incrementando sus ventas gracias a las sugerencias de compra que el sistema recomienda a cada usuario, ha facilitado la búsqueda de información sobre artículos y temas diversos disminuyendo el tiempo y esfuerzo de usuarios para encontrar información relativa a algún tópico en particular, y ha reforzado la calidad de recursos obtenidos por el usuario al proporcionar información relevante basada en gustos y preferencias de cada usuario \cite{Acilar2009}.
-\paragraph{}
-Existen sistemas de recomendación que actualmente funcionan en Internet, en su mayoría trabajando con algoritmos de recomendación basados en filtrado colaborativo \cite{Schafer2001, Goldberg1992}, por su facilidad de implementación, su uso y los buenos resultados que ha proporcionado en diversas aplicaciones.
-El filtrado colaborativo es la técnica de recomendación más utilizada en Internet, es un aspecto de gran importancia de las redes sociales  y la pequeña revolución que ha supuesto la llamada \textit{Web 2.0}. Algunos ejemplos actuales de su uso mencionados en \cite{GalanNieto1994} son los siguientes:
-\begin{description}
-\item[Recomendaciones en tiendas en línea.] Partiendo de un producto se recomiendan otros productos que han interesado a los usuarios que compraron dicho producto. La red Pionera en este tipo de recomendaciones fue \textit{amazon.com}.
-\item[Filtrado de noticias.] Se construye un perfil que almacena las noticias que un usuario consulta.
-\item[Recomendaciones musicales, de libros, de películas.] En los últimos años han surgido decenas de sitios web de este tipo entre las que destacan \textit{Lastfm} y \textit{Mystrands}, esta última de origen español. En estos servicios, cada vez que el usuario escucha una canción se envía la información a la base de datos del sistema, el cual la utiliza para generar las recomendaciones , pero las funcionalidades que ofrecen crecen constantemente. Por ejemplo, \textit{Lastfm} ofrece radios personalizadas para cada usuario en función de las recomendaciones que reciba y  \textit{Mystrands} organiza fiestas en las que la música  se elige automáticamente en forma colaborativa en función de los gustos de los asistentes. El modelo de negocios de estas empresas es además la publicidad, el de acuerdos con tiendas en línea para enlazar directamente las recomendaciones con su servicio de ventas. También el de proporcionar a las compañías -discográficas en este caso- análisis de tendencias musicales, de nuevos artistas, etcétera.
-\item[Búsqueda de personas afines en comunidades.] En sitios web como \textit{meneame.net} se tienen en cuenta las noticias que el usuario ha votado para generar una lista de vecinos con intereses similares.
-\end{description}
-
-\section{Objetivos}
-
-Este trabajo de investigación tiene como objetivo el desarrollo de un prototipo que permita lograr \textbf{mejores recomendaciones} de ítems y que resulten más cercanas a las preferencias de los usuarios, basadas en la información que el usuario proporciona al sistema. La estrategia para llegar a la meta propuesta se basa en definir las técnicas más adecuadas para facilitar las tareas del sistema de recomendación, el cual mostrará resultados en el prototipo.
-\paragraph{}
-Una de las técnicas que se proponen para mejorar los sistemas de recomendación es la \textbf{lógica difusa}, ésta técnica permite utilizar información lingüística en las recomendaciones  y por ésta razón juega un papel muy importante en el funcionamiento del sistema.
-\paragraph{}
-Algo que se requiere es aprovechar al máximo las ventajas que ofrece un método de hibridación de algoritmos de recomendación. Simplificar el trabajo dividido en dos tipos de algoritmos de recomendación que estarán generando recomendaciones a los usuarios.
-
-En base a los motivos para realizar esta investigación se han definido los siguientes objetivos:
-\begin{enumerate}
-\item Proponer técnicas de lógica difusa para mejorar sistemas de recomendación existentes, se busca la manera de perfeccionar las recomendaciones para hacerlas más aproximadas a los requerimientos del usuario.
-\item Hacer un sistema de recomendación con mayor flexibilidad en la definición de las preferencias del usuario, es importante considerar que la información es subjetiva porque está relacionada con las percepciones y opiniones que un usuario define sobre los productos que prefiere, esto se logra mediante técnicas de lógica difusa.
-\item Mejorar las recomendaciones combinando algoritmos de filtrado colaborativo (basado en memoria y basado en modelo) o utilizando un método de hibridación. Se ha definido en la arquitectura del sistema la implementación de un método híbrido que utiliza dos  algoritmos de recomendación (filtrado colaborativo y basado en contenido) para generar las recomendaciones al usuario.
-\item Probar que la arquitectura diseñada para el Sistema de Recomendación de Objetos de Aprendizaje \citep{Garcia2009} funciona para otro tipo de aplicación, esto será basándonos en el flujo de trabajo para dar el enfoque de restaurantes.
-\item  Diseñar un prototipo del sistema que sea funcional y pueda implementarse para uso comercial.
-\end{enumerate}
-
-\section{Estructura de la tesis}
-
-Esta tesis está estructurada con los siguientes capítulos:
+Each learning object has associated certain information that describes it. This facilitates reuse by automatic means. Standard initiatives have been proposed to promote the exchange of learning objects between learning management systems (LMS?s) these are used in repositories, and several systems [2]. Different techniques (discussed later) have been proposed to personalize the sequencing and selection of learning objects to accommodate the learner?s individual requirements. Adaptive hypermedia (AH?s) techniques have been used successfully in Web based educational interactive systems, but these systems are mainly limited to browser-based interactions. Traditional interaction devices like Desktop PCs and laptop computers, are now joined by other devices as described by Poslad in his UbiComp model [3]:
 \begin{itemize}
-\item En el \textit{capítulo 2} se explica en general el funcionamiento de los sistemas de recomendación, que ventajas y desventajas ofrecen estos algoritmos y cómo obtener mejores beneficios, se menciona la clasificación de los algoritmos que existen y algunos ejemplos donde se han aplicado estos algoritmos de recomendación. También se da una breve explicación de Sistemas de Inferencia Difuso, su funcionamiento y los tipos de sistemas más utilizados en aplicaciones como la expuesta en este trabajo.
-\item En el \textit{capítulo 3} se explica el modelo de base de datos utilizado en la aplicación, en general, se habla del proceso de recomendación mostrado en la arquitectura del sistema, el desempeño de los algoritmos y la implementación del sistema de inferencia difuso utilizado para generar recomendaciones.
-\item En el \textit{capítulo 4} se presenta la implementación del prototipo que utiliza la propuesta presentada en este trabajo, se explica la funcionalidad y sus características principales.
-\item En el \textit{capítulo 5} se explican algunos experimentos realizados para evaluar las recomendaciones generadas por los algoritmos integrados en el sistema.
-\item Finalmente, en el \textit{capítulo 6} se presentan las conclusiones más relevantes obtenidas a lo largo de la investigación, además, se hace mención de trabajos futuros de investigación y concluye con la recopilación bibliográfica de las aportaciones más importantes del estudio.
+\item Smart Devices. Multifunctional, mobile, personalized, private, to ease access to and embody services rather than just to virtualize them.
+\item Smarter Environments. To sense and react to events such as people, with mobile devices, entering and leaving controlled spaces.
+\item Smarter Interactions. These use other service access devices with simpler functions and allow them to interoperate between devices.
 \end{itemize}
-
-\chapter{Sistemas de recomendación}
+\paragraph{}
+These devices can be used to compose Intelligent Environments (IEs) defined as physical environments in which information and communication technologies and sensor systems disappear as they become embedded into physical objects, infrastructures, and the surroundings in which we live, travel, and work. Context awareness plays a key role, in these systems, as the environment intelligently has to perceive users, devices, the physical environment and their interactions. There are currently several proposals using this kind of devices for educational purposes, integrated with intelligent environments, personalization and context awareness [4][5].
+\paragraph{} 
+There are other proposals that do not consider the use of learning objects nor reuse of didactic content in intelligent environments, in this work we propose an extension to learning objects techniques that could be interchanged between (adapted to) different learning environments. These learning objects will embody packages of didactic resources together with rules for device assignment and composition. We intend to use adaptive hypermedia systems techniques and learning objects in the development of intelligent learning environments. 
+\paragraph{}
+\section{Thesis Structure}
+This thesis is organized as follows:
+\begin{itemize}
+\item \textit{Chapter 2} The theory and background are presented.
+\item \textit{Chapter 3} Proposed framework are presented. 
+\item \textit{Chapter 4} Describes the application problems reviewed in this investigation work.
+\item \textit{Chapter 5} The experimental results are shown.
+\item \textit{Chapter 6} Conclusions and current/future work are presented.
+\item \textit{Chapter 7} Presents Annex A
+\end{itemize}
+\chapter{Theory and Background}
+This chapter overviews the background and main definitions and basic concepts, useful to the development of this investigation work.
+\paragraph{} 
 \section{Antecedentes}
 En un principio los sistemas de recomendación eran conocidos como filtros colaborativos y los primeros trabajos datan del principio de los 90. El término fue acuñado en 1992  para un sistema de \textbf{filtrado de correo electrónico} no automatizado. En 1994 se desarrolló  el primer taller en Berkeley donde se vio la utilidad en diversas áreas de los primeros algoritmos simples de este tipo. También se identificaron algunas cuestiones importantes para el desarrollo de estos algoritmos: escalabilidad, viabilidad económica, puntuaciones implícitas y explícitas. 
 \paragraph{}
@@ -1263,92 +1234,10 @@ Son muchas las mejoras que se pueden hacer al sistema, sin embargo, habría que 
 \begin{thebibliography}{99}
 
 \bibitem{Acilar2009}  Acilar, A., Merve A.; Ahmed (2009). \textit{A collaborative filtering method based on artificial immune networks. Expert Sistems with applications,} 161.
+\bibitem{Willey 2000}  Wiley, D. A. (2000). \textit{Connecting learning objects to instructional design theory: A definition, a metaphor, and a taxonomy. The Instructional Use of Learning Objects}, Bloomington: Association for Educational Communications and Technology, (pp. 3(23).
 
-\bibitem{Adomavicius2005} Adomavicius, A., Gedimias; Tuzhilin (2005). \textit{Towards the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions.} in it IEEE Trans. Knowl.Data Eng, vol17 (6), (pp.734-749).
 
-\bibitem{Ahn2008} Ahn, H. (2008).\textit{ A New Similarity Measure For Collaborative Filtering To Alleviate The New User Cold Starting Problem.} Information Sciences, (pp. 37-51).
 
-\bibitem{Balabanovic1997} Balabanovic, Y., Marko; Shoham (1997). \textit{Fab: Content-Based, Collaborative Recommendation.} Communications of the ACM, 40 (3).
-
-\bibitem{BarrancoM.J;Mata2008} Barranco, F., M. J; Mata, y Martínez, L. (2008). \textit{REJA: un sistema de recomendación de restaurantes basado en técnicas difusas.} VII Congreso "Turismo y Tecnologías de la información y comunicaciones". Universidad de Jaén., (pp. 1-14).
-
-\bibitem{Basu1998} Basu, H. H., C., y Cohen, W. (1998). \textit{Recommendation as classification: Using social and content-based information in recommendation.} In Recommender Systems.
-
-\bibitem{Billsus1998} Billsus, M., D.; Pazzani (1998).\textit{ Learning collaborative information filters.} In Proceedings of the 15th National Conference on Artificial Intelligence (AAAI-98)., 10 , pp. 46-53.
-
-\bibitem{Billsus2000} Billsus, M., D.; Pazzani (2000). \textit{User modeling for adaptive news access. User Modeling and User-Adapted Interaction.} 10 , 147-180.
-
-\bibitem{Burke2002} Burke, R. (2002). \textit{Hybrid Recommender Systems: Survey and Experiments.} Departament of Information Systems and Decision Sciences, (pp. 1-29).
-
-\bibitem{Claypool1999} Claypool, M., Gokhale, A., Miranda, T., Murnikov, P., Netes, D., y Sartin, M. (1999). \textit{Combining Content-Based and Collaborative Filters in an Online Newspaper. } Computer Science Departament, (pp. 1-8).
-
-\bibitem{Information1997} Council., U. I. T. I. (1997). \textit{The protection of personal data in electronic commerce. Public Policy Document. }
-
-\bibitem{DeCamposLuis2008} De Campos, L. M., Fernández-Luna, J. M., y Huete, J. F. (2008).\textit{ A collaborative recommender system based on probabilistic inference from fuzzy observations.} Fuzzy Sets and Systems, 159 , 1554-1576.
-
-\bibitem{Deshpande2004} Deshpande, M., y Karypis, G. (2004). \textit{Item-Based Top-N Recommendation Algorithms.} ACM Trans. Information Systems, 22 , pp. 143-177.
-
-\bibitem{Espinilla2009} Espinilla, M., Rodríguez, M., Martínez, L., y Barranco, M. (2009). \textit{Sr-reja. Sistema de recomendación híbrido georreferenciado.} International Journal of Hospitality Management, (pp. 147-154).
-
-\bibitem{GalanNieto1994} Galán Nieto, S. M. (2007). \textit{Filtrado Colaborativo y Sistemas de Recomendación.} Inteligencia en Redes de Comunicaciones.
-
-\bibitem{Garcia2009} García-Valdez, M., y Parra, B. (2009). \textit{A Hybrid Recommender System Architecture for Learning Objects.} Evolutionary Design of Intelligent Systems. Tijuana Institute of Technology., (pp. 205-211).
-
-\bibitem{GarciaGil2007} García, F. J., y Gil, A. B. (2007).\textit{ Personalización de Sistemas de Recomendación.} Universidad de Salamanca. Facultad de Ciencias, España. (pp. 1-5).
-
-\bibitem{Garciavaldez2009} García-Valdez, M., Alanis, A., y Parra, B. (2010).\textit{ Fuzzy Inference for Learning Object Recommendation.} IEEE, (pp. 1-6). Technological Institute of Tijuana.
-
-\bibitem{Goldberg1992} Goldberg, D., Nichols, D., Oki, B., y Terry, D. (1992). \textit{Using Collaborative Filtering To Weave An Information Tapestry.} AC Comunications of the ACM.
-
-\bibitem{GuzmanAlvarez} Guzmán  Alvarez, C. A. (2008). \textit{Modelos sub-simbólicos en los Sistemas Recomendadores. Algoritmos genéticos.} DSCI. Universidad Politécnica de Valencia., (pp. 1-8).
-
-\bibitem{Hanley1982} Hanley, J., y Andmcneil, B. (1982). \textit{The meaning and use of the area under a receiver operating characteristic (ROC) curve.} (pp. Radiology 143, 29-36).
-
-\bibitem{Herlocker1991} Herlocker, J. L., Konstan, J. A., Borchers, A., y Riedl, J. (1991). \textit{An Algorithmic Framework for Performing Collaborative Filtering.}  Dep. of Computer Science and Enginnering.
-
-\bibitem{Herlocker2004} Herlocker, J. L., Konstan, J. A., Terveen, L. G., y Riedl, J. T. (2004).\textit{Evaluating Collaborative Filtering Recommender Systems.} 22 (1), (pp. 5-53).
-
-\bibitem{Django2008} Holovaty, A., y Kaplan-moss, J. (2008).\textit{ The Definitive Guide: Web Development Done Right. Django en Español.} Python Argentina. $URL: www.djangoproject.com$
-
-\bibitem{Houstis2002} Houstis, E. N., Catlin, A. C., Dhanjani, N., Rice, J. R., Ramakrishnan, N., y Verykios, V. (2002). \textit{MyPYTHIA: a recommendation portal for scientic software and services.} 1505 (January), (pp.1481-1505).
-
-\bibitem{Jang1997} J.-S.R., S. E. M., Jang; C.-T. (1997). \textit{Neuro-Fuzzy and Soft Computing. A Computacional Approach to Learning and Machine Intelligence.}
-
-\bibitem{Meteren2001} Meteren, R. V., y Someren, M. V. (2001). \textit{Using Content-Based Filtering for Recommendation.} NetlinQ Group., (pp. 1-10).
-
-\bibitem{Porcel2004} Porcel, E. H. L., Carlos; Herrera-Viedma (2004).\textit{ Sistemas de Recomendaciones: herramientas para el filtrado de información en Internet.} Hipertext.net, 2 .
-
-\bibitem{PerezCordon2008} Pérez Cordón, L.-G. (2008). \textit{Modelos de información con falta de información. Aplicaciones al sector turístico.} Universidad de Jaén, España.
-
-\bibitem{Ramezani0000} Ramezani, M., Bergman, L., Thompson, R., Burke, R., y Mobaster, B. (2008). \textit{Selecting and Applying Recommendation Technology. Information Systems,} (pp. 1-9).
-
-\bibitem{Resnick1997} Resnick, P., Varian, H. R., y Guest, E. (1997).\textit{ Recommender Systems.} Communications of the ACM, 40 (3), 56-58.
-
-\bibitem{Cristian2010} Romero, C., García Valdéz, M., y Alanis, A. (2010). \textit{A comparative study of machine learning techniques in blog comments spam filtering in Neural Networks.}  International Joint Conference, (pp. 1-7).
-
-\bibitem{Drake2000} Rossum, G. V. (2000). \textit{Guía de aprendizaje de Python.} Amsterdam: BeOpen Python-Labs.
-
-\bibitem{Rucker1997} Rucker, J., y Polanco, M. J. (1997). \textit{SiteSeer: Personalized Navigation for the Web.} Communications of the ACM, (pp. 73-75).
-
-\bibitem{Sarwar2001} Sarwar, B., Karypis, G., Konstan, J., y Riedl, J. (2001). \textit{Item-Based Collaborative Filtering Recommendation Algorithms.} In In Proceedings of the 10th International World Wide Web Conference (WWW10). GroupLens Research Group, (pp. 285-295).
-
-\bibitem{Schafer2001} Schafer, J., Konstan, J., y Riedl, J. (2001).\textit{E-Commerce Recommender Applications. Data Mining and Knowledge Discovery.}  Norwell, USA, Kluwer Academic Publisher, (pp. 115-153).
-
-\bibitem{Schein2002} Schein, A. I., Popescul, A., Ungar, L. H., y Pennock, D. (2002). \textit{ Methods and metrics for cold-start recommendations.} In Proc. of the 25th Annual Intl. ACM SIGIR Conf.
-
-\bibitem{Segaran2007} Segaran, T., Russell, D., Lead, U. T., Wolters, T., Intellect, C., Tyma, P., y Engineer, S. S. (2007). \textit{Programming Collective Intelligence.} USA: O'Reilly Media Inc. 
-$URL: www.oreilly.com$
-
-\bibitem{Soboroff1999} Soborof, I., y Nicholas, C. (1999). \textit{ Combining content and collaboration in text filtering.} Workshop: Machine Learning for Information Filtering.
-
-\bibitem{Terveen1997} Terveen, L., Hill, W., Amento, B., Mcdonald, D., y Creter, J. (1997). \textit{PHOAKS: a system for sharing recommendations.} Human Factors, 59 (March), (pp. 3-5).
-
-\bibitem{wikipedia} Wales, J., y L., S. (2010). Enciclopedia libre Wikipedia. Fecha de consulta: Febrero 2010. $URL: es.wikipedia.org/wiki/SistemaRecomendador$
-
-\bibitem{wikipedia2}  Wales, J., y L., S. (2010). Enciclopedia libre Wikipedia. Fecha de consulta: Diciembre 2010. $URL: es.wikipedia.org/wiki/Logicadifusa$
-
-\bibitem{Wang2004} Wang, Y.-f., Chuang, Y.-l., Hsu, M.-h., y Keh, H.-c. (2004). \textit{A personalized recommender system for the cosmetic business. Expert Systems with Applications,}  26 , (pp. 427-434).
-\bibitem{Yager2003} Yager, R. R. (2003). \textit{Fuzzy logic methods in recommender systems.} Fuzzy Sets and Systems, 136 (2), (pp.133-149).
 \end{thebibliography}
 
 \appendix
