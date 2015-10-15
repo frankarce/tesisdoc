@@ -1,14 +1,14 @@
 \select@language {spanish}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Cuadro comparativo de sistemas de recomendaci\IeC {\'o}n.}}{29}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Cuadro comparativo de sistemas de recomendaci\IeC {\'o}n.}}{27}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Recomendaciones con filtrado colaborativo.}}{62}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Ra\IeC {\'\i }z del Error Cuadr\IeC {\'a}tico Medio con correlaci\IeC {\'o}n de Pearson.}}{62}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Ra\IeC {\'\i }z del Error Cuadr\IeC {\'a}tico Medio con distancia euclidiana.}}{62}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Comparaci\IeC {\'o}n de las recomendaciones.}}{65}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Recomendaciones con filtrado colaborativo.}}{60}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Ra\IeC {\'\i }z del Error Cuadr\IeC {\'a}tico Medio con correlaci\IeC {\'o}n de Pearson.}}{60}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Ra\IeC {\'\i }z del Error Cuadr\IeC {\'a}tico Medio con distancia euclidiana.}}{60}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Comparaci\IeC {\'o}n de las recomendaciones.}}{63}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Matriz de valoraciones de usuarios.}}{85}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Matriz de valoraciones de usuarios.}}{83}

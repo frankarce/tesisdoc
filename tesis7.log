@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 OCT 2015 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 OCT 2015 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,1287 +853,1248 @@ Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 [3] [4
 
 ]
-
-Package natbib Warning: Citation `GarciaGil2007' on page 5 undefined on input l
-ine 266.
-
-
-Package natbib Warning: Citation `wikipedia' on page 5 undefined on input line 
-269.
-
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
+LaTeX Info: Redefining \. on input line 269.
+LaTeX Info: Redefining \% on input line 269.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [5]
-LaTeX Info: Redefining \. on input line 291.
-LaTeX Info: Redefining \% on input line 291.
+LaTeX Info: Redefining \. on input line 275.
+LaTeX Info: Redefining \% on input line 275.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [6]
 
-Package natbib Warning: Citation `Ahn2008' on page 7 undefined on input line 29
-3.
+Package natbib Warning: Citation `Claypool1999' on page 7 undefined on input li
+ne 282.
 
-
-Package natbib Warning: Citation `Burke2002' on page 7 undefined on input line 
-293.
-
-
-Package natbib Warning: Citation `Adomavicius2005' on page 7 undefined on input
- line 301.
-
-
-Package natbib Warning: Citation `Balabanovic1997' on page 7 undefined on input
- line 301.
-
-LaTeX Info: Redefining \. on input line 302.
-LaTeX Info: Redefining \% on input line 302.
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [7]
-LaTeX Info: Redefining \. on input line 311.
-LaTeX Info: Redefining \% on input line 311.
+
+Package natbib Warning: Citation `Information1997' on page 8 undefined on input
+ line 284.
+
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [8]
 
-Package natbib Warning: Citation `Claypool1999' on page 9 undefined on input li
-ne 312.
+Package natbib Warning: Citation `Billsus2000' on page 9 undefined on input lin
+e 293.
 
-
-Package natbib Warning: Citation `Information1997' on page 9 undefined on input
- line 314.
-
-LaTeX Info: Redefining \. on input line 317.
-LaTeX Info: Redefining \% on input line 317.
+LaTeX Info: Redefining \. on input line 299.
+LaTeX Info: Redefining \% on input line 299.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [9]
 
-Package natbib Warning: Citation `Billsus2000' on page 10 undefined on input li
-ne 323.
+Package natbib Warning: Citation `Burke2002' on page 10 undefined on input line
+ 305.
 
-LaTeX Info: Redefining \. on input line 324.
-LaTeX Info: Redefining \% on input line 324.
+LaTeX Info: Redefining \. on input line 306.
+LaTeX Info: Redefining \% on input line 306.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [10]
-LaTeX Info: Redefining \. on input line 331.
-LaTeX Info: Redefining \% on input line 331.
+LaTeX Info: Redefining \. on input line 314.
+LaTeX Info: Redefining \% on input line 314.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [11]
 
-Package natbib Warning: Citation `Burke2002' on page 12 undefined on input line
- 335.
+Package natbib Warning: Citation `GuzmanAlvarez' on page 12 undefined on input 
+line 315.
 
-LaTeX Info: Redefining \. on input line 342.
-LaTeX Info: Redefining \% on input line 342.
+
+Package natbib Warning: Citation `Balabanovic1997' on page 12 undefined on inpu
+t line 320.
+
+
+Package natbib Warning: Citation `Claypool1999' on page 12 undefined on input l
+ine 320.
+
+
+Package natbib Warning: Citation `Schein2002' on page 12 undefined on input lin
+e 320.
+
+
+Package natbib Warning: Citation `Soboroff1999' on page 12 undefined on input l
+ine 320.
+
+
+Package natbib Warning: Citation `Basu1998' on page 12 undefined on input line 
+320.
+
+LaTeX Info: Redefining \. on input line 330.
+LaTeX Info: Redefining \% on input line 330.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [12]
 
-Package natbib Warning: Citation `GuzmanAlvarez' on page 13 undefined on input 
-line 345.
+Package natbib Warning: Citation `Porcel2004' on page 13 undefined on input lin
+e 331.
 
 
-Package natbib Warning: Citation `Balabanovic1997' on page 13 undefined on inpu
-t line 350.
+Package natbib Warning: Citation `Porcel2004' on page 13 undefined on input lin
+e 344.
 
 
-Package natbib Warning: Citation `Claypool1999' on page 13 undefined on input l
-ine 350.
+Underfull \hbox (badness 10000) in paragraph at lines 343--345
 
+ []
 
-Package natbib Warning: Citation `Schein2002' on page 13 undefined on input lin
-e 350.
+<./images/procesoRecomendacion2.pdf, id=86, 795.09044pt x 509.38306pt>
+File: ./images/procesoRecomendacion2.pdf Graphic file (type pdf)
 
-
-Package natbib Warning: Citation `Soboroff1999' on page 13 undefined on input l
-ine 350.
-
-
-Package natbib Warning: Citation `Basu1998' on page 13 undefined on input line 
+<use ./images/procesoRecomendacion2.pdf>
+Package pdftex.def Info: ./images/procesoRecomendacion2.pdf used on input line 
 350.
-
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+(pdftex.def)             Requested size: 266.40271pt x 170.67741pt.
+LaTeX Info: Redefining \. on input line 353.
+LaTeX Info: Redefining \% on input line 353.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [13]
 
-Package natbib Warning: Citation `Porcel2004' on page 14 undefined on input lin
-e 361.
+Package natbib Warning: Citation `Yager2003' on page 14 undefined on input line
+ 355.
 
-LaTeX Info: Redefining \. on input line 372.
-LaTeX Info: Redefining \% on input line 372.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[14]
-
-Package natbib Warning: Citation `Porcel2004' on page 15 undefined on input lin
-e 374.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--375
-
- []
-
-<./images/procesoRecomendacion2.pdf, id=92, 795.09044pt x 509.38306pt>
-File: ./images/procesoRecomendacion2.pdf Graphic file (type pdf)
-
-<use ./images/procesoRecomendacion2.pdf>
-Package pdftex.def Info: ./images/procesoRecomendacion2.pdf used on input line 
-380.
-(pdftex.def)             Requested size: 266.40271pt x 170.67741pt.
-
-
-Package natbib Warning: Citation `Yager2003' on page 15 undefined on input line
- 385.
-
-LaTeX Info: Redefining \. on input line 387.
-LaTeX Info: Redefining \% on input line 387.
+LaTeX Info: Redefining \. on input line 363.
+LaTeX Info: Redefining \% on input line 363.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[15 <./images/procesoRecomendacion2.pdf>]
-LaTeX Info: Redefining \. on input line 402.
-LaTeX Info: Redefining \% on input line 402.
+[14 <./images/procesoRecomendacion2.pdf>]
+LaTeX Info: Redefining \. on input line 376.
+LaTeX Info: Redefining \% on input line 376.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[15]
+
+Package natbib Warning: Citation `Yager2003' on page 16 undefined on input line
+ 379.
+
+
+Package natbib Warning: Citation `Porcel2004' on page 16 undefined on input lin
+e 379.
+
+LaTeX Info: Redefining \. on input line 386.
+LaTeX Info: Redefining \% on input line 386.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [16]
 
-Package natbib Warning: Citation `Yager2003' on page 17 undefined on input line
- 409.
+Package natbib Warning: Citation `GalanNieto1994' on page 17 undefined on input
+ line 391.
 
 
-Package natbib Warning: Citation `Porcel2004' on page 17 undefined on input lin
-e 409.
+Package natbib Warning: Citation `Adomavicius2005' on page 17 undefined on inpu
+t line 395.
 
-LaTeX Info: Redefining \. on input line 410.
-LaTeX Info: Redefining \% on input line 410.
+
+Package natbib Warning: Citation `Herlocker1991' on page 17 undefined on input 
+line 395.
+
+
+Package natbib Warning: Citation `Ramezani0000' on page 17 undefined on input l
+ine 395.
+
+LaTeX Info: Redefining \. on input line 397.
+LaTeX Info: Redefining \% on input line 397.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [17]
 
-Package natbib Warning: Citation `GalanNieto1994' on page 18 undefined on input
- line 421.
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 403.
 
-LaTeX Info: Redefining \. on input line 422.
-LaTeX Info: Redefining \% on input line 422.
+LaTeX Info: Redefining \. on input line 412.
+LaTeX Info: Redefining \% on input line 412.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [18]
-
-Package natbib Warning: Citation `Adomavicius2005' on page 19 undefined on inpu
-t line 425.
-
-
-Package natbib Warning: Citation `Herlocker1991' on page 19 undefined on input 
-line 425.
-
-
-Package natbib Warning: Citation `Ramezani0000' on page 19 undefined on input l
-ine 425.
-
-
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 433.
-
-LaTeX Info: Redefining \. on input line 434.
-LaTeX Info: Redefining \% on input line 434.
+LaTeX Info: Redefining \. on input line 427.
+LaTeX Info: Redefining \% on input line 427.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [19]
-LaTeX Info: Redefining \. on input line 447.
-LaTeX Info: Redefining \% on input line 447.
+LaTeX Info: Redefining \. on input line 442.
+LaTeX Info: Redefining \% on input line 442.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [20]
-LaTeX Info: Redefining \. on input line 467.
-LaTeX Info: Redefining \% on input line 467.
+
+Package natbib Warning: Citation `GalanNieto1994' on page 21 undefined on input
+ line 445.
+
+
+Package natbib Warning: Citation `Ramezani0000' on page 21 undefined on input l
+ine 449.
+
+
+Package natbib Warning: Citation `Sarwar2001' on page 21 undefined on input lin
+e 451.
+
+
+Package natbib Warning: Citation `Deshpande2004' on page 21 undefined on input 
+line 451.
+
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [21]
 
-Package natbib Warning: Citation `GalanNieto1994' on page 22 undefined on input
- line 475.
+Package natbib Warning: Citation `PerezCordon2008' on page 22 undefined on inpu
+t line 464.
 
 
-Package natbib Warning: Citation `Ramezani0000' on page 22 undefined on input l
-ine 479.
-
-LaTeX Info: Redefining \. on input line 480.
-LaTeX Info: Redefining \% on input line 480.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[22]
-
-Package natbib Warning: Citation `Sarwar2001' on page 23 undefined on input lin
-e 481.
-
-
-Package natbib Warning: Citation `Deshpande2004' on page 23 undefined on input 
-line 481.
-
-LaTeX Info: Redefining \. on input line 490.
-LaTeX Info: Redefining \% on input line 490.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[23]
-
-Package natbib Warning: Citation `PerezCordon2008' on page 24 undefined on inpu
-t line 494.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
-<./images/esquemaBC2.pdf, id=134, 873.62384pt x 369.90193pt>
-File: ./images/esquemaBC2.pdf Graphic file (type pdf)
-
-<use ./images/esquemaBC2.pdf>
-Package pdftex.def Info: ./images/esquemaBC2.pdf used on input line 500.
-(pdftex.def)             Requested size: 399.59729pt x 169.19743pt.
-LaTeX Info: Redefining \. on input line 507.
-LaTeX Info: Redefining \% on input line 507.
+LaTeX Info: Redefining \. on input line 465.
+LaTeX Info: Redefining \% on input line 465.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[24 <./images/esquemaBC2.pdf>]
+[22] <./images/esquemaBC2.pdf, id=131, 873.62384pt x 369.90193pt>
+File: ./images/esquemaBC2.pdf Graphic file (type pdf)
 
-Package natbib Warning: Citation `PerezCordon2008' on page 25 undefined on inpu
-t line 529.
+<use ./images/esquemaBC2.pdf>
+Package pdftex.def Info: ./images/esquemaBC2.pdf used on input line 470.
+(pdftex.def)             Requested size: 399.59729pt x 169.19743pt.
+LaTeX Info: Redefining \. on input line 489.
+LaTeX Info: Redefining \% on input line 489.
 
-LaTeX Info: Redefining \. on input line 532.
-LaTeX Info: Redefining \% on input line 532.
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[23 <./images/esquemaBC2.pdf>]
+
+Package natbib Warning: Citation `PerezCordon2008' on page 24 undefined on inpu
+t line 499.
+
+
+Package natbib Warning: Citation `Balabanovic1997' on page 24 undefined on inpu
+t line 502.
+
+LaTeX Info: Redefining \. on input line 503.
+LaTeX Info: Redefining \% on input line 503.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[24]
+
+Package natbib Warning: Citation `Terveen1997' on page 25 undefined on input li
+ne 506.
+
+
+Package natbib Warning: Citation `Rucker1997' on page 25 undefined on input lin
+e 508.
+
+LaTeX Info: Redefining \. on input line 510.
+LaTeX Info: Redefining \% on input line 510.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [25]
 
-Package natbib Warning: Citation `Balabanovic1997' on page 26 undefined on inpu
-t line 532.
+Package natbib Warning: Citation `Resnick1997' on page 26 undefined on input li
+ne 512.
 
-
-Package natbib Warning: Citation `Terveen1997' on page 26 undefined on input li
-ne 536.
-
-LaTeX Info: Redefining \. on input line 537.
-LaTeX Info: Redefining \% on input line 537.
+LaTeX Info: Redefining \. on input line 513.
+LaTeX Info: Redefining \% on input line 513.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [26]
 
-Package natbib Warning: Citation `Rucker1997' on page 27 undefined on input lin
-e 538.
+Package natbib Warning: Citation `Resnick1997' on page 27 undefined on input li
+ne 515.
 
-LaTeX Info: Redefining \. on input line 541.
-LaTeX Info: Redefining \% on input line 541.
+
+Underfull \hbox (badness 4927) in paragraph at lines 523--523
+\OT1/cmr/m/n/10 de la re-co-
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 523--523
+[]|\OT1/cmr/m/n/10 ?`La en-tra-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\OT1/cmr/m/n/10 ?`Es an^^Soni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]|\OT1/cmr/m/n/10 Modo de
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 523--524
+[]|\OT1/cmr/m/n/10 Uso de las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+\OT1/cmr/m/n/10 re-co-men-da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\OT1/cmr/m/n/10 Ponderaci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\OT1/cmr/m/n/10 per-so-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\OT1/cmr/m/n/10 li-za-da;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\OT1/cmr/m/n/10 com-bi-na-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\OT1/cmr/m/n/10 con an^^Sali-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
+[]|\OT1/cmr/m/n/10 Selecci^^Son/-fil-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\OT1/cmr/m/n/10 Menci^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/cmr/m/n/10 una per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/cmr/m/n/10 so-na o un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\OT1/cmr/m/n/10 Extra^^S^^Pdas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/cmr/m/n/10 de fuen-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/cmr/m/n/10 p^^Subli-cas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\OT1/cmr/m/n/10 Montar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/cmr/m/n/10 ca-de-na de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/cmr/m/n/10 la per-so-na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]|\OT1/cmr/m/n/10 Menci^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]|\OT1/cmr/m/n/10 Extra^^S^^Pdos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+\OT1/cmr/m/n/10 de pu-bli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+\OT1/cmr/m/n/10 ca-cio-nes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+[]|\OT1/cmr/m/n/10 Ordenados
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]|\OT1/cmr/m/n/10 Menci^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]|\OT1/cmr/m/n/10 Extra^^S^^Pdos
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 de las car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 pe-tas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 mar-ca-do-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]|\OT1/cmr/m/n/10 Frecuencia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 de men-ci^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 po-si-ci^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[]|\OT1/cmr/m/n/10 Num^^Serica:1-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[]|\OT1/cmr/m/n/10 Por clien-te,
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 533--533
+\OT1/cmr/m/n/10 va-lo-ra to-dos
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 535--535
+[]|\OT1/cmr/m/n/10 Por usua-rio,
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 535--535
+\OT1/cmr/m/n/10 va-lo-ra to-dos
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 535--535
+\OT1/cmr/m/n/10 los as-pec-tos
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 535--535
+\OT1/cmr/m/n/10 de un es-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
+[]|\OT1/cmr/m/n/10 Pantalla,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
+\OT1/cmr/m/n/10 su-ge-ren-cias
+ []
+
+
+Package natbib Warning: Citation `wikipedia2' on page 27 undefined on input lin
+e 546.
+
+LaTeX Info: Redefining \. on input line 547.
+LaTeX Info: Redefining \% on input line 547.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [27]
 
-Package natbib Warning: Citation `Resnick1997' on page 28 undefined on input li
-ne 542.
-
-
-Package natbib Warning: Citation `Resnick1997' on page 28 undefined on input li
-ne 545.
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 553--553
-\OT1/cmr/m/n/10 de la re-co-
- []
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 553--553
-[]|\OT1/cmr/m/n/10 ?`La en-tra-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
-[]|\OT1/cmr/m/n/10 ?`Es an^^Soni-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
-[]|\OT1/cmr/m/n/10 Modo de
- []
-
-
-Underfull \hbox (badness 5893) in paragraph at lines 553--554
-[]|\OT1/cmr/m/n/10 Uso de las
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
-\OT1/cmr/m/n/10 re-co-men-da-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
-[]|\OT1/cmr/m/n/10 Ponderaci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
-\OT1/cmr/m/n/10 per-so-na-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
-\OT1/cmr/m/n/10 li-za-da;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
-\OT1/cmr/m/n/10 com-bi-na-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--555
-\OT1/cmr/m/n/10 con an^^Sali-sis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-[]|\OT1/cmr/m/n/10 Selecci^^Son/-fil-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-[]|\OT1/cmr/m/n/10 Menci^^Son de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-\OT1/cmr/m/n/10 una per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-\OT1/cmr/m/n/10 so-na o un
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-[]|\OT1/cmr/m/n/10 Extra^^S^^Pdas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-\OT1/cmr/m/n/10 de fuen-tes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-\OT1/cmr/m/n/10 p^^Subli-cas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-[]|\OT1/cmr/m/n/10 Montar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-\OT1/cmr/m/n/10 ca-de-na de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--557
-\OT1/cmr/m/n/10 la per-so-na
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
-[]|\OT1/cmr/m/n/10 Menci^^Son de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
-[]|\OT1/cmr/m/n/10 Extra^^S^^Pdos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
-\OT1/cmr/m/n/10 de pu-bli-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
-\OT1/cmr/m/n/10 ca-cio-nes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
-[]|\OT1/cmr/m/n/10 Ordenados
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\OT1/cmr/m/n/10 Menci^^Son de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\OT1/cmr/m/n/10 Extra^^S^^Pdos
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 561--561
-\OT1/cmr/m/n/10 de las car-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-\OT1/cmr/m/n/10 pe-tas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-\OT1/cmr/m/n/10 mar-ca-do-res
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\OT1/cmr/m/n/10 Frecuencia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-\OT1/cmr/m/n/10 de men-ci^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-\OT1/cmr/m/n/10 po-si-ci^^Son de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
-[]|\OT1/cmr/m/n/10 Num^^Serica:1-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
-[]|\OT1/cmr/m/n/10 Por clien-te,
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 563--563
-\OT1/cmr/m/n/10 va-lo-ra to-dos
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 565--565
-[]|\OT1/cmr/m/n/10 Por usua-rio,
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 565--565
-\OT1/cmr/m/n/10 va-lo-ra to-dos
- []
-
-
-Underfull \hbox (badness 5288) in paragraph at lines 565--565
-\OT1/cmr/m/n/10 los as-pec-tos
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 565--565
-\OT1/cmr/m/n/10 de un es-ta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
-[]|\OT1/cmr/m/n/10 Pantalla,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
-\OT1/cmr/m/n/10 su-ge-ren-cias
- []
-
-LaTeX Info: Redefining \. on input line 573.
-LaTeX Info: Redefining \% on input line 573.
+Package natbib Warning: Citation `Jang1997' on page 28 undefined on input line 
+555.
+
+LaTeX Info: Redefining \. on input line 556.
+LaTeX Info: Redefining \% on input line 556.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [28]
 
-Package natbib Warning: Citation `wikipedia2' on page 29 undefined on input lin
-e 576.
-
-LaTeX Info: Redefining \. on input line 577.
-LaTeX Info: Redefining \% on input line 577.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+Package natbib Warning: Citation `Jang1997' on page 29 undefined on input line 
+571.
 
 
-[29]
-
-Package natbib Warning: Citation `Jang1997' on page 30 undefined on input line 
-585.
-
-LaTeX Info: Redefining \. on input line 589.
-LaTeX Info: Redefining \% on input line 589.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[30]
-
-Package natbib Warning: Citation `Jang1997' on page 31 undefined on input line 
-601.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
+Underfull \hbox (badness 10000) in paragraph at lines 571--572
 
  []
 
-<./images/fuzzy11.pdf, id=165, 782.68411pt x 438.1971pt>
+LaTeX Info: Redefining \. on input line 572.
+LaTeX Info: Redefining \% on input line 572.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[29] <./images/fuzzy11.pdf, id=162, 782.68411pt x 438.1971pt>
 File: ./images/fuzzy11.pdf Graphic file (type pdf)
 
 <use ./images/fuzzy11.pdf>
-Package pdftex.def Info: ./images/fuzzy11.pdf used on input line 607.
+Package pdftex.def Info: ./images/fuzzy11.pdf used on input line 577.
 (pdftex.def)             Requested size: 266.40271pt x 149.15219pt.
-LaTeX Info: Redefining \. on input line 610.
-LaTeX Info: Redefining \% on input line 610.
+
+
+Package natbib Warning: Citation `Jang1997' on page 30 undefined on input line 
+586.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
+
+ []
+
+LaTeX Info: Redefining \. on input line 587.
+LaTeX Info: Redefining \% on input line 587.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[31]
-
-Package natbib Warning: Citation `Jang1997' on page 32 undefined on input line 
-616.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
-
- []
-
-<./images/fuzzy22.pdf, id=169, 795.09044pt x 426.8748pt>
+[30 <./images/fuzzy11.pdf>]
+<./images/fuzzy22.pdf, id=173, 795.09044pt x 426.8748pt>
 File: ./images/fuzzy22.pdf Graphic file (type pdf)
 
 <use ./images/fuzzy22.pdf>
-Package pdftex.def Info: ./images/fuzzy22.pdf used on input line 622.
+Package pdftex.def Info: ./images/fuzzy22.pdf used on input line 592.
 (pdftex.def)             Requested size: 266.40271pt x 143.03162pt.
-LaTeX Info: Redefining \. on input line 625.
-LaTeX Info: Redefining \% on input line 625.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[32 <./images/fuzzy11.pdf>]
-
-Package natbib Warning: Citation `Jang1997' on page 33 undefined on input line 
-633.
+Package natbib Warning: Citation `Jang1997' on page 31 undefined on input line 
+603.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--637
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
 
  []
 
-LaTeX Info: Redefining \. on input line 637.
-LaTeX Info: Redefining \% on input line 637.
+LaTeX Info: Redefining \. on input line 607.
+LaTeX Info: Redefining \% on input line 607.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[33 <./images/fuzzy22.pdf>]
-<./images/fuzzy33.pdf, id=192, 795.09044pt x 426.8748pt>
+[31 <./images/fuzzy22.pdf>]
+<./images/fuzzy33.pdf, id=186, 795.09044pt x 426.8748pt>
 File: ./images/fuzzy33.pdf Graphic file (type pdf)
 
 <use ./images/fuzzy33.pdf>
-Package pdftex.def Info: ./images/fuzzy33.pdf used on input line 642.
+Package pdftex.def Info: ./images/fuzzy33.pdf used on input line 612.
 (pdftex.def)             Requested size: 266.40271pt x 143.03162pt.
-LaTeX Info: Redefining \. on input line 647.
-LaTeX Info: Redefining \% on input line 647.
+LaTeX Info: Redefining \. on input line 617.
+LaTeX Info: Redefining \% on input line 617.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[34 <./images/fuzzy33.pdf>]
+[32 <./images/fuzzy33.pdf>]
 
-Package natbib Warning: Citation `Garciavaldez2009' on page 35 undefined on inp
-ut line 656.
+Package natbib Warning: Citation `Garciavaldez2009' on page 33 undefined on inp
+ut line 626.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--657
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
 
  []
 
-<./images/bd.pdf, id=204, 873.50339pt x 606.10443pt>
+<./images/bd.pdf, id=197, 873.50339pt x 606.10443pt>
 File: ./images/bd.pdf Graphic file (type pdf)
  <use ./images/bd.pdf>
-Package pdftex.def Info: ./images/bd.pdf used on input line 662.
+Package pdftex.def Info: ./images/bd.pdf used on input line 632.
 (pdftex.def)             Requested size: 399.59729pt x 277.26694pt.
 
-[35
+[33
 
 ]
 
-Package natbib Warning: Citation `Burke2002' on page 36 undefined on input line
- 668.
+Package natbib Warning: Citation `Burke2002' on page 34 undefined on input line
+ 638.
 
-LaTeX Info: Redefining \. on input line 671.
-LaTeX Info: Redefining \% on input line 671.
+LaTeX Info: Redefining \. on input line 641.
+LaTeX Info: Redefining \% on input line 641.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[36 <./images/bd.pdf>]
+[34 <./images/bd.pdf>]
 
-Package natbib Warning: Citation `Garciavaldez2009' on page 37 undefined on inp
-ut line 691.
+Package natbib Warning: Citation `Garciavaldez2009' on page 35 undefined on inp
+ut line 661.
 
-<./images/filtradoColaborativo.pdf, id=218, 795.09044pt x 313.04956pt>
+<./images/filtradoColaborativo.pdf, id=212, 795.09044pt x 313.04956pt>
 File: ./images/filtradoColaborativo.pdf Graphic file (type pdf)
 
 <use ./images/filtradoColaborativo.pdf>
 Package pdftex.def Info: ./images/filtradoColaborativo.pdf used on input line 6
-97.
+67.
 (pdftex.def)             Requested size: 266.40271pt x 104.89255pt.
-LaTeX Info: Redefining \. on input line 700.
-LaTeX Info: Redefining \% on input line 700.
+LaTeX Info: Redefining \. on input line 670.
+LaTeX Info: Redefining \% on input line 670.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 703--704
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
 
  []
 
-<./images/basadoContenido.pdf, id=222, 795.09044pt x 512.27383pt>
+<./images/basadoContenido.pdf, id=216, 795.09044pt x 512.27383pt>
 File: ./images/basadoContenido.pdf Graphic file (type pdf)
 
 <use ./images/basadoContenido.pdf>
-Package pdftex.def Info: ./images/basadoContenido.pdf used on input line 709.
+Package pdftex.def Info: ./images/basadoContenido.pdf used on input line 679.
 (pdftex.def)             Requested size: 266.40271pt x 171.64601pt.
-LaTeX Info: Redefining \. on input line 715.
-LaTeX Info: Redefining \% on input line 715.
+LaTeX Info: Redefining \. on input line 685.
+LaTeX Info: Redefining \% on input line 685.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[38 <./images/filtradoColaborativo.pdf> <./images/basadoContenido.pdf
+[36 <./images/filtradoColaborativo.pdf> <./images/basadoContenido.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/basadoContenido.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 725--726
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
 
  []
 
-<./images/fisExperto.pdf, id=239, 795.09044pt x 426.8748pt>
+<./images/fisExperto.pdf, id=233, 795.09044pt x 426.8748pt>
 File: ./images/fisExperto.pdf Graphic file (type pdf)
 
 <use ./images/fisExperto.pdf>
-Package pdftex.def Info: ./images/fisExperto.pdf used on input line 731.
+Package pdftex.def Info: ./images/fisExperto.pdf used on input line 701.
 (pdftex.def)             Requested size: 310.79865pt x 166.86479pt.
-LaTeX Info: Redefining \. on input line 738.
-LaTeX Info: Redefining \% on input line 738.
+LaTeX Info: Redefining \. on input line 708.
+LaTeX Info: Redefining \% on input line 708.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[39 <./images/fisExperto.pdf>]
-LaTeX Info: Redefining \. on input line 756.
-LaTeX Info: Redefining \% on input line 756.
+[37 <./images/fisExperto.pdf>]
+LaTeX Info: Redefining \. on input line 726.
+LaTeX Info: Redefining \% on input line 726.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
+
+ []
+
+<./images/fisIntegrador.pdf, id=247, 795.09044pt x 426.8748pt>
+File: ./images/fisIntegrador.pdf Graphic file (type pdf)
+
+<use ./images/fisIntegrador.pdf>
+Package pdftex.def Info: ./images/fisIntegrador.pdf used on input line 737.
+(pdftex.def)             Requested size: 310.79865pt x 166.86479pt.
+LaTeX Info: Redefining \. on input line 747.
+LaTeX Info: Redefining \% on input line 747.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[39 <./images/fisIntegrador.pdf>]
+LaTeX Info: Redefining \. on input line 792.
+LaTeX Info: Redefining \% on input line 792.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
-
- []
-
-<./images/fisIntegrador.pdf, id=254, 795.09044pt x 426.8748pt>
-File: ./images/fisIntegrador.pdf Graphic file (type pdf)
-
-<use ./images/fisIntegrador.pdf>
-Package pdftex.def Info: ./images/fisIntegrador.pdf used on input line 767.
-(pdftex.def)             Requested size: 310.79865pt x 166.86479pt.
-LaTeX Info: Redefining \. on input line 777.
-LaTeX Info: Redefining \% on input line 777.
+LaTeX Info: Redefining \. on input line 804.
+LaTeX Info: Redefining \% on input line 804.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[41 <./images/fisIntegrador.pdf>]
-LaTeX Info: Redefining \. on input line 822.
-LaTeX Info: Redefining \% on input line 822.
+[41]
+LaTeX Info: Redefining \. on input line 813.
+LaTeX Info: Redefining \% on input line 813.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[42]
-LaTeX Info: Redefining \. on input line 834.
-LaTeX Info: Redefining \% on input line 834.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[43]
-LaTeX Info: Redefining \. on input line 843.
-LaTeX Info: Redefining \% on input line 843.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[44] <./images/arquitectura2.pdf, id=274, 873.62384pt x 569.12625pt>
+[42] <./images/arquitectura2.pdf, id=268, 873.62384pt x 569.12625pt>
 File: ./images/arquitectura2.pdf Graphic file (type pdf)
 
 <use ./images/arquitectura2.pdf>
-Package pdftex.def Info: ./images/arquitectura2.pdf used on input line 852.
+Package pdftex.def Info: ./images/arquitectura2.pdf used on input line 822.
 (pdftex.def)             Requested size: 399.59729pt x 260.32495pt.
-LaTeX Info: Redefining \. on input line 857.
-LaTeX Info: Redefining \% on input line 857.
+LaTeX Info: Redefining \. on input line 827.
+LaTeX Info: Redefining \% on input line 827.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[45 <./images/arquitectura2.pdf>]
+[43 <./images/arquitectura2.pdf>]
 
-Package natbib Warning: Citation `Burke2002' on page 46 undefined on input line
- 861.
+Package natbib Warning: Citation `Burke2002' on page 44 undefined on input line
+ 831.
 
 
-Package natbib Warning: Citation `PerezCordon2008' on page 46 undefined on inpu
-t line 863.
+Package natbib Warning: Citation `PerezCordon2008' on page 44 undefined on inpu
+t line 833.
 
-[46
+[44
 
 ]
 
-Package natbib Warning: Citation `Drake2000' on page 47 undefined on input line
- 872.
+Package natbib Warning: Citation `Drake2000' on page 45 undefined on input line
+ 842.
 
 
-Package natbib Warning: Citation `Django2008' on page 47 undefined on input lin
-e 872.
+Package natbib Warning: Citation `Django2008' on page 45 undefined on input lin
+e 842.
 
-LaTeX Info: Redefining \. on input line 875.
-LaTeX Info: Redefining \% on input line 875.
+LaTeX Info: Redefining \. on input line 845.
+LaTeX Info: Redefining \% on input line 845.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[47] <./images/p1.pdf, id=292, 873.62384pt x 569.12625pt>
+[45] <./images/p1.pdf, id=285, 873.62384pt x 569.12625pt>
 File: ./images/p1.pdf Graphic file (type pdf)
 
 <use ./images/p1.pdf>
-Package pdftex.def Info: ./images/p1.pdf used on input line 887.
+Package pdftex.def Info: ./images/p1.pdf used on input line 857.
 (pdftex.def)             Requested size: 310.79865pt x 202.4711pt.
-LaTeX Info: Redefining \. on input line 892.
-LaTeX Info: Redefining \% on input line 892.
+LaTeX Info: Redefining \. on input line 862.
+LaTeX Info: Redefining \% on input line 862.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[48 <./images/p1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 895--896
+[46 <./images/p1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
 
  []
 
-<./images/p2.pdf, id=303, 873.62384pt x 512.27383pt>
+<./images/p2.pdf, id=297, 873.62384pt x 512.27383pt>
 File: ./images/p2.pdf Graphic file (type pdf)
  <use ./images/p2.pdf>
-Package pdftex.def Info: ./images/p2.pdf used on input line 901.
+Package pdftex.def Info: ./images/p2.pdf used on input line 871.
 (pdftex.def)             Requested size: 355.20135pt x 208.28268pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--906
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
 
  []
 
-LaTeX Info: Redefining \. on input line 906.
-LaTeX Info: Redefining \% on input line 906.
+LaTeX Info: Redefining \. on input line 876.
+LaTeX Info: Redefining \% on input line 876.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[49 <./images/p2.pdf>] <./images/p3.pdf, id=314, 788.22482pt x 512.27383pt>
+[47 <./images/p2.pdf>] <./images/p3.pdf, id=308, 788.22482pt x 512.27383pt>
 File: ./images/p3.pdf Graphic file (type pdf)
 
 <use ./images/p3.pdf>
-Package pdftex.def Info: ./images/p3.pdf used on input line 911.
+Package pdftex.def Info: ./images/p3.pdf used on input line 881.
 (pdftex.def)             Requested size: 355.20135pt x 230.84938pt.
-LaTeX Info: Redefining \. on input line 919.
-LaTeX Info: Redefining \% on input line 919.
+LaTeX Info: Redefining \. on input line 889.
+LaTeX Info: Redefining \% on input line 889.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[50 <./images/p3.pdf>] <./images/p4.pdf, id=325, 700.0554pt x 512.27383pt>
+[48 <./images/p3.pdf>] <./images/p4.pdf, id=319, 700.0554pt x 512.27383pt>
 File: ./images/p4.pdf Graphic file (type pdf)
 
 <use ./images/p4.pdf>
-Package pdftex.def Info: ./images/p4.pdf used on input line 929.
+Package pdftex.def Info: ./images/p4.pdf used on input line 899.
 (pdftex.def)             Requested size: 355.20135pt x 259.92735pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 933--934
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
 
-<./images/p5.pdf, id=326, 574.78741pt x 369.90193pt>
+<./images/p5.pdf, id=320, 574.78741pt x 369.90193pt>
 File: ./images/p5.pdf Graphic file (type pdf)
  <use ./images/p5.pdf>
-Package pdftex.def Info: ./images/p5.pdf used on input line 939.
+Package pdftex.def Info: ./images/p5.pdf used on input line 909.
 (pdftex.def)             Requested size: 355.20135pt x 228.58614pt.
-LaTeX Info: Redefining \. on input line 942.
-LaTeX Info: Redefining \% on input line 942.
+LaTeX Info: Redefining \. on input line 912.
+LaTeX Info: Redefining \% on input line 912.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[51 <./images/p4.pdf>]
+[49 <./images/p4.pdf>]
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-<./images/p6.pdf, id=337, 574.78741pt x 500.83109pt>
+<./images/p6.pdf, id=331, 574.78741pt x 500.83109pt>
 File: ./images/p6.pdf Graphic file (type pdf)
  <use ./images/p6.pdf>
-Package pdftex.def Info: ./images/p6.pdf used on input line 949.
+Package pdftex.def Info: ./images/p6.pdf used on input line 919.
 (pdftex.def)             Requested size: 355.20135pt x 309.49567pt.
-LaTeX Info: Redefining \. on input line 952.
-LaTeX Info: Redefining \% on input line 952.
+LaTeX Info: Redefining \. on input line 922.
+LaTeX Info: Redefining \% on input line 922.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[52 <./images/p5.pdf>] <./images/p7.pdf, id=350, 574.78741pt x 500.83109pt>
+[50 <./images/p5.pdf>] <./images/p7.pdf, id=343, 574.78741pt x 500.83109pt>
 File: ./images/p7.pdf Graphic file (type pdf)
 
 <use ./images/p7.pdf>
-Package pdftex.def Info: ./images/p7.pdf used on input line 961.
+Package pdftex.def Info: ./images/p7.pdf used on input line 931.
 (pdftex.def)             Requested size: 355.20135pt x 309.49567pt.
-LaTeX Info: Redefining \. on input line 964.
-LaTeX Info: Redefining \% on input line 964.
+LaTeX Info: Redefining \. on input line 934.
+LaTeX Info: Redefining \% on input line 934.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[53 <./images/p6.pdf>]
+[51 <./images/p6.pdf>]
 
-Package natbib Warning: Citation `PerezCordon2008' on page 54 undefined on inpu
-t line 968.
+Package natbib Warning: Citation `PerezCordon2008' on page 52 undefined on inpu
+t line 938.
 
-LaTeX Info: Redefining \. on input line 973.
-LaTeX Info: Redefining \% on input line 973.
+LaTeX Info: Redefining \. on input line 943.
+LaTeX Info: Redefining \% on input line 943.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[54 <./images/p7.pdf>]
+[52 <./images/p7.pdf>]
 
-Package natbib Warning: Citation `Burke2002' on page 55 undefined on input line
- 983.
-
-
-Package natbib Warning: Citation `Cristian2010' on page 55 undefined on input l
-ine 985.
+Package natbib Warning: Citation `Burke2002' on page 53 undefined on input line
+ 953.
 
 
-Package natbib Warning: Citation `Adomavicius2005' on page 55 undefined on inpu
-t line 985.
+Package natbib Warning: Citation `Cristian2010' on page 53 undefined on input l
+ine 955.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--987
+Package natbib Warning: Citation `Adomavicius2005' on page 53 undefined on inpu
+t line 955.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--957
 
  []
 
-LaTeX Info: Redefining \. on input line 987.
-LaTeX Info: Redefining \% on input line 987.
+LaTeX Info: Redefining \. on input line 957.
+LaTeX Info: Redefining \% on input line 957.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[55] <./images/p8.pdf, id=374, 574.78741pt x 500.83109pt>
+[53] <./images/p8.pdf, id=368, 574.78741pt x 500.83109pt>
 File: ./images/p8.pdf Graphic file (type pdf)
 
 <use ./images/p8.pdf>
-Package pdftex.def Info: ./images/p8.pdf used on input line 992.
+Package pdftex.def Info: ./images/p8.pdf used on input line 962.
 (pdftex.def)             Requested size: 355.20135pt x 309.49567pt.
-LaTeX Info: Redefining \. on input line 997.
-LaTeX Info: Redefining \% on input line 997.
+LaTeX Info: Redefining \. on input line 967.
+LaTeX Info: Redefining \% on input line 967.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[56 <./images/p8.pdf>]
+[54 <./images/p8.pdf>]
 
-Package natbib Warning: Citation `Adomavicius2005' on page 57 undefined on inpu
-t line 1001.
-
-
-Package natbib Warning: Citation `Herlocker1991' on page 57 undefined on input 
-line 1001.
+Package natbib Warning: Citation `Adomavicius2005' on page 55 undefined on inpu
+t line 971.
 
 
-Package natbib Warning: Citation `Herlocker2004' on page 57 undefined on input 
-line 1003.
+Package natbib Warning: Citation `Herlocker1991' on page 55 undefined on input 
+line 971.
 
-[57
+
+Package natbib Warning: Citation `Herlocker2004' on page 55 undefined on input 
+line 973.
+
+[55
 
 ]
 
-Package natbib Warning: Citation `GalanNieto1994' on page 58 undefined on input
- line 1019.
+Package natbib Warning: Citation `GalanNieto1994' on page 56 undefined on input
+ line 989.
 
-LaTeX Info: Redefining \. on input line 1020.
-LaTeX Info: Redefining \% on input line 1020.
+LaTeX Info: Redefining \. on input line 990.
+LaTeX Info: Redefining \% on input line 990.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[56]
+LaTeX Info: Redefining \. on input line 1002.
+LaTeX Info: Redefining \% on input line 1002.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[57]
+
+Package natbib Warning: Citation `Herlocker2004' on page 58 undefined on input 
+line 1007.
+
+
+Package natbib Warning: Citation `Sarwar2001' on page 58 undefined on input lin
+e 1007.
+
+
+Package natbib Warning: Citation `Basu1998' on page 58 undefined on input line 
+1007.
+
+
+Package natbib Warning: Citation `Billsus1998' on page 58 undefined on input li
+ne 1007.
+
+
+Package natbib Warning: Citation `Hanley1982' on page 58 undefined on input lin
+e 1011.
+
+
+Package natbib Warning: Citation `Herlocker2004' on page 58 undefined on input 
+line 1011.
+
+LaTeX Info: Redefining \. on input line 1012.
+LaTeX Info: Redefining \% on input line 1012.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [58]
-LaTeX Info: Redefining \. on input line 1032.
-LaTeX Info: Redefining \% on input line 1032.
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
+
+ []
+
+LaTeX Info: Redefining \. on input line 1056.
+LaTeX Info: Redefining \% on input line 1056.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [59]
-
-Package natbib Warning: Citation `Herlocker2004' on page 60 undefined on input 
-line 1037.
-
-
-Package natbib Warning: Citation `Sarwar2001' on page 60 undefined on input lin
-e 1037.
-
-
-Package natbib Warning: Citation `Basu1998' on page 60 undefined on input line 
-1037.
-
-
-Package natbib Warning: Citation `Billsus1998' on page 60 undefined on input li
-ne 1037.
-
-
-Package natbib Warning: Citation `Hanley1982' on page 60 undefined on input lin
-e 1041.
-
-
-Package natbib Warning: Citation `Herlocker2004' on page 60 undefined on input 
-line 1041.
-
-LaTeX Info: Redefining \. on input line 1042.
-LaTeX Info: Redefining \% on input line 1042.
+LaTeX Info: Redefining \. on input line 1099.
+LaTeX Info: Redefining \% on input line 1099.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
-
- []
-
-LaTeX Info: Redefining \. on input line 1086.
-LaTeX Info: Redefining \% on input line 1086.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[61]
-LaTeX Info: Redefining \. on input line 1129.
-LaTeX Info: Redefining \% on input line 1129.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[62] <./images/graficarmsd.pdf, id=404, 795.09044pt x 569.12625pt>
+[60] <./images/graficarmsd.pdf, id=398, 795.09044pt x 569.12625pt>
 File: ./images/graficarmsd.pdf Graphic file (type pdf)
 
 <use ./images/graficarmsd.pdf>
-Package pdftex.def Info: ./images/graficarmsd.pdf used on input line 1134.
+Package pdftex.def Info: ./images/graficarmsd.pdf used on input line 1104.
 (pdftex.def)             Requested size: 355.20135pt x 254.25471pt.
 
 
-Package natbib Warning: Citation `GalanNieto1994' on page 63 undefined on input
- line 1138.
+Package natbib Warning: Citation `GalanNieto1994' on page 61 undefined on input
+ line 1108.
 
 
-Package natbib Warning: Citation `Burke2002' on page 63 undefined on input line
- 1138.
+Package natbib Warning: Citation `Burke2002' on page 61 undefined on input line
+ 1108.
 
 
-Package natbib Warning: Citation `Garciavaldez2009' on page 63 undefined on inp
-ut line 1138.
+Package natbib Warning: Citation `Garciavaldez2009' on page 61 undefined on inp
+ut line 1108.
 
 
-Package natbib Warning: Citation `Adomavicius2005' on page 63 undefined on inpu
-t line 1138.
+Package natbib Warning: Citation `Adomavicius2005' on page 61 undefined on inpu
+t line 1108.
 
-LaTeX Info: Redefining \. on input line 1142.
-LaTeX Info: Redefining \% on input line 1142.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[63 <./images/graficarmsd.pdf>]
-
-Package natbib Warning: Citation `Garciavaldez2009' on page 64 undefined on inp
-ut line 1146.
-
-LaTeX Info: Redefining \. on input line 1153.
-LaTeX Info: Redefining \% on input line 1153.
+LaTeX Info: Redefining \. on input line 1112.
+LaTeX Info: Redefining \% on input line 1112.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[64]
-LaTeX Info: Redefining \. on input line 1185.
-LaTeX Info: Redefining \% on input line 1185.
+[61 <./images/graficarmsd.pdf>]
+
+Package natbib Warning: Citation `Garciavaldez2009' on page 62 undefined on inp
+ut line 1116.
+
+LaTeX Info: Redefining \. on input line 1123.
+LaTeX Info: Redefining \% on input line 1123.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[65] [66
+[62]
+LaTeX Info: Redefining \. on input line 1155.
+LaTeX Info: Redefining \% on input line 1155.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[63] [64
 
 ]
 
-Package natbib Warning: Citation `Segaran2007' on page 67 undefined on input li
-ne 1200.
+Package natbib Warning: Citation `Segaran2007' on page 65 undefined on input li
+ne 1170.
 
 
-Package natbib Warning: Citation `Burke2002' on page 67 undefined on input line
- 1200.
+Package natbib Warning: Citation `Burke2002' on page 65 undefined on input line
+ 1170.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
 
  []
 
-LaTeX Info: Redefining \. on input line 1207.
-LaTeX Info: Redefining \% on input line 1207.
+LaTeX Info: Redefining \. on input line 1177.
+LaTeX Info: Redefining \% on input line 1177.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[65]
+LaTeX Info: Redefining \. on input line 1189.
+LaTeX Info: Redefining \% on input line 1189.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[66]
+
+Package natbib Warning: Citation `Espinilla2009' on page 67 undefined on input 
+line 1191.
+
+LaTeX Info: Redefining \. on input line 1195.
+LaTeX Info: Redefining \% on input line 1195.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [67]
-LaTeX Info: Redefining \. on input line 1219.
-LaTeX Info: Redefining \% on input line 1219.
+LaTeX Info: Redefining \. on input line 1204.
+LaTeX Info: Redefining \% on input line 1204.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
-[68]
-
-Package natbib Warning: Citation `Espinilla2009' on page 69 undefined on input 
-line 1221.
-
-LaTeX Info: Redefining \. on input line 1225.
-LaTeX Info: Redefining \% on input line 1225.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[69]
-LaTeX Info: Redefining \. on input line 1234.
-LaTeX Info: Redefining \% on input line 1234.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[70] [71
+[68] [69
 
 ] (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1253
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1223
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1253.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1223.
 
- [72
+ [70
 
 ]
-LaTeX Info: Redefining \. on input line 1312.
-LaTeX Info: Redefining \% on input line 1312.
+LaTeX Info: Redefining \. on input line 1282.
+LaTeX Info: Redefining \% on input line 1282.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[71]
+LaTeX Info: Redefining \. on input line 1320.
+LaTeX Info: Redefining \% on input line 1320.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[72]
+Overfull \hbox (22.20154pt too wide) in paragraph at lines 1332--1333
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (22.20154pt too wide) in paragraph at lines 1333--1335
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Info: Redefining \. on input line 1358.
+LaTeX Info: Redefining \% on input line 1358.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [73]
-LaTeX Info: Redefining \. on input line 1350.
-LaTeX Info: Redefining \% on input line 1350.
+Overfull \hbox (11.1015pt too wide) in paragraph at lines 1390--1391
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Info: Redefining \. on input line 1396.
+LaTeX Info: Redefining \% on input line 1396.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [74]
-Overfull \hbox (22.20154pt too wide) in paragraph at lines 1362--1363
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (22.20154pt too wide) in paragraph at lines 1363--1365
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Info: Redefining \. on input line 1388.
-LaTeX Info: Redefining \% on input line 1388.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[75]
-Overfull \hbox (11.1015pt too wide) in paragraph at lines 1420--1421
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Info: Redefining \. on input line 1426.
-LaTeX Info: Redefining \% on input line 1426.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[76]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1435
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1405
 .
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1435.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1405.
 
-LaTeX Info: Redefining \. on input line 1464.
-LaTeX Info: Redefining \% on input line 1464.
+LaTeX Info: Redefining \. on input line 1434.
+LaTeX Info: Redefining \% on input line 1434.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[75]
+LaTeX Info: Redefining \. on input line 1473.
+LaTeX Info: Redefining \% on input line 1473.
+
+Overfull \vbox (1.21667pt too high) has occurred while \output is active []
+
+
+[76]
+LaTeX Info: Redefining \. on input line 1510.
+LaTeX Info: Redefining \% on input line 1510.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [77]
-LaTeX Info: Redefining \. on input line 1503.
-LaTeX Info: Redefining \% on input line 1503.
+LaTeX Info: Redefining \. on input line 1548.
+LaTeX Info: Redefining \% on input line 1548.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [78]
-LaTeX Info: Redefining \. on input line 1540.
-LaTeX Info: Redefining \% on input line 1540.
+LaTeX Info: Redefining \. on input line 1586.
+LaTeX Info: Redefining \% on input line 1586.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [79]
-LaTeX Info: Redefining \. on input line 1578.
-LaTeX Info: Redefining \% on input line 1578.
+Overfull \hbox (22.20154pt too wide) in paragraph at lines 1608--1610
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Info: Redefining \. on input line 1624.
+LaTeX Info: Redefining \% on input line 1624.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [80]
-LaTeX Info: Redefining \. on input line 1616.
-LaTeX Info: Redefining \% on input line 1616.
+LaTeX Info: Redefining \. on input line 1662.
+LaTeX Info: Redefining \% on input line 1662.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [81]
-Overfull \hbox (22.20154pt too wide) in paragraph at lines 1638--1640
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (3.06097pt too wide) in paragraph at lines 1691--1691
+[]|\OT1/cmr/m/n/8 Usuarios| 
  []
 
-LaTeX Info: Redefining \. on input line 1654.
-LaTeX Info: Redefining \% on input line 1654.
+LaTeX Info: Redefining \. on input line 1748.
+LaTeX Info: Redefining \% on input line 1748.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [82]
-LaTeX Info: Redefining \. on input line 1692.
-LaTeX Info: Redefining \% on input line 1692.
+
+Class memoir Warning: The material used in the headers is too large
+(15.71667pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 1749.
+
+
+Package natbib Warning: There were undefined citations.
+
+LaTeX Info: Redefining \. on input line 1749.
+LaTeX Info: Redefining \% on input line 1749.
 
 Overfull \vbox (1.21667pt too high) has occurred while \output is active []
 
 
 [83]
-Overfull \hbox (3.06097pt too wide) in paragraph at lines 1721--1721
-[]|\OT1/cmr/m/n/8 Usuarios| 
- []
-
-LaTeX Info: Redefining \. on input line 1778.
-LaTeX Info: Redefining \% on input line 1778.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[84]
-
-Class memoir Warning: The material used in the headers is too large
-(15.71667pt) for the given head height (14.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 1779.
-
-
-Package natbib Warning: There were undefined citations.
-
-LaTeX Info: Redefining \. on input line 1779.
-LaTeX Info: Redefining \% on input line 1779.
-
-Overfull \vbox (1.21667pt too high) has occurred while \output is active []
-
-
-[85]
 \tf@toc=\write4
 \openout4 = `tesis7.toc'.
 
@@ -2150,15 +2111,12 @@ LaTeX Info: Redefining \% on input line 9.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 11739 strings out of 493117
- 156281 string characters out of 6135433
- 349148 words of memory out of 5000000
- 14997 multiletter control sequences out of 15000+600000
+ 11736 strings out of 493117
+ 156246 string characters out of 6135433
+ 350148 words of memory out of 5000000
+ 14994 multiletter control sequences out of 15000+600000
  19237 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,13n,40p,1362b,2047s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2183,10 +2141,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesis7.pdf (94 pages, 2560772 bytes).
+Output written on tesis7.pdf (92 pages, 2558529 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
+ 555 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

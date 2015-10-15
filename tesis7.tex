@@ -256,52 +256,22 @@ This thesis is organized as follows:
 \chapter{Theory and Background}
 This chapter overviews the background and main definitions and basic concepts, useful to the development of this investigation work.
 \paragraph{} 
-\section{Antecedentes}
-En un principio los sistemas de recomendación eran conocidos como filtros colaborativos y los primeros trabajos datan del principio de los 90. El término fue acuñado en 1992  para un sistema de \textbf{filtrado de correo electrónico} no automatizado. En 1994 se desarrolló  el primer taller en Berkeley donde se vio la utilidad en diversas áreas de los primeros algoritmos simples de este tipo. También se identificaron algunas cuestiones importantes para el desarrollo de estos algoritmos: escalabilidad, viabilidad económica, puntuaciones implícitas y explícitas. 
+\section{Learning environment}
+Learning environment refers to the diverse physical locations, contexts, and cultures in which students learn. Since students may learn in a wide variety of settings, such as outside-of-school locations and outdoor environments, the term is often used as a more accurate or preferred alternative to classroom, which has more limited and traditional connotations?a room with rows of desks and a chalkboard, for example.
 \paragraph{}
-Uno de los grupos de investigación pioneros en el desarrollo del filtrado colaborativo fue el proyecto de \textbf{GroupLens} de la universidad de Minessota que aún permanece muy activo y ha proporcionado una gran parte de la base algorítmica de muchos sistemas de recomendación. Fueron los primeros en introducir  el filtro colaborativo automático usando un algoritmo de búsqueda de vecinos para proporcionar predicciones en los grupos de noticias de \textbf{USENET}. De este grupo de investigación partió también la iniciativa empresarial \textbf{NetPerceptions}, despejando gran parte de las dudas de la viabilidad económica de estos proyectos.
+The term also encompasses the culture of a school or class?its presiding ethos and characteristics, including how individuals interact with and treat one another?as well as the ways in which teachers may organize an educational setting to facilitate learning?e.g., by conducting classes in relevant natural ecosystems, grouping desks in specific ways, decorating the walls with learning materials, or utilizing audio, visual, and digital technologies. And because the qualities and characteristics of a learning environment are determined by a wide variety of factors, school policies, governance structures, and other features may also be considered elements of a  \textit{learning environment}.
 \paragraph{} 
-Los \textbf{Sistemas de Recomendación} (RS del inglés Recommender Systems) han evolucionado rápidamente dentro del entorno interactivo de la Web, especialmente en sitios de comercio electrónico, los cuales utilizan inmensas bases de datos con productos y/o servicios para ofrecer soporte y atención a grandes cantidades de usuarios, cada uno de ellos con un perfil determinado.
+Educators may also argue that learning environments have both a direct and indirect influence on student learning, including their engagement in what is being taught, their motivation to learn, and their sense of well-being, belonging, and personal safety. For example, learning environments filled with sunlight and stimulating educational materials would likely be considered more conducive to learning than drab spaces without windows or decoration, as would schools with fewer incidences of misbehavior, disorder, bullying, and illegal activity. How adults interact with students and how students interact with one another may also be considered aspects of a learning environment, and phrases such as \textit{positive learning environment} or \textit{negative learning environment} are commonly used in reference to the social and emotional dimensions of a school or class.
 \paragraph{}
-La gran cantidad de sitios especializados en Internet, ofreciendo millones de productos y/o servicios, se convierte en un caos de información cuando se necesita realizar una adquisición eligiendo entre las miles de opciones existentes. Un sistema de recomendación recibe información del usuario acerca de productos y/o servicios en los que el usuario se encuentra interesado basándose en sus \textbf{gustos} y \textbf{preferencias} y le recomienda aquellos cercanos a sus necesidades \citep{GarciaGil2007}. 
-
-\section{Definición}
-Los sistemas de recomendación forman parte de un tipo especifico de técnica de \textbf{filtro de información}, los cuales presentan distintos tipos de temas o ítems de información (películas, música, libros, noticias, imágenes, páginas web, etcétera.) que son del interés de un usuario en particular \citep{wikipedia}. 
+\section{Interactive learning environment}
+ Interactive learning is a pedagogical approach that incorporates  social networking and urban computing into course design and delivery. Interactive Learning has evolved out of the hyper-growth in the use of digital technology and virtual communication, particularly by students. 
 \paragraph{}
-Generalmente, un sistema de recomendación compara el \textbf{perfil de usuario} con algunas características de referencia de los temas, y busca predecir la ponderación que el usuario le daría a un ítem. Estas características pueden basarse en la relación o acercamiento del usuario con el tema o en el ambiente social del mismo usuario. Cuando se crea un perfil del usuario, se crea utilizando dos formas o métodos en la recolección de características (implícitas o explícitas).
-\paragraph{}
+The use of interactive technology in learning for these students is as natural as using a pencil and paper were to past generations. The Net Generation or Generation Y is the first generation to grow up in constant contact with digital media. Also known as digital natives, their techno-social, community bonds to their naturalized use of technology in every aspect of learning, to their ability to learn in new ways outside the classroom, this generation of students is pushing the boundaries of education. The use of digital media in education has led to an increase in the use of and reliance on interactive learning, which in turn has led to a revolution in the fundamental process of education.\paragraph{}
 Algunos ejemplos de recolección de datos de \textbf{forma explícitas} son:
-\begin{itemize}
-	\item Solicitar al usuario que califique en base a una escala proporcionada, algún tema en particular.
-	\item Solicitar al usuario que califique un conjunto de temas de una lista de temas favoritos.
-	\item Presentar al usuario dos temas, y solicitarle que seleccione uno de ellos.
-	\item Solicitar al usuario que elabore una lista de los temas que prefiera. 
-\end{itemize}
 \paragraph{}
-Algunos ejemplos de recolección de datos de \textbf{forma implícitas} son:
-\begin{itemize}
-	\item Guardar un registro de temas que el usuario ha visto en una tienda en línea.
-	\item Analizar el número de visitas que recibe un artículo.
-	\item Guardar un registro de los artículos que el usuario selecciona.
-	\item Obtener un listado de los artículos que el usuario ha seleccionado.
-	\item Analizar las redes sociales de las que el usuario esta registrado y así conocer sus gustos y preferencias.
-\end{itemize}
-
-Los sistemas de recomendación comparan la colección de datos de un usuario con una otra colección similar y crean un listado de artículos y temas para recomendarlos al usuario. Éstos sistemas representan una alternativa eficiente para la búsqueda de algoritmos que ayudan a los usuarios a descubrir artículos que no pueden ser encontrados por sí mismos. Suficientemente interesante, son usualmente implementados usando procesos de búsqueda indexando datos no tradicionales. 
-
-\section{Ventajas y desventajas}
-Todas las técnicas de recomendación tienen sus puntos fuertes y sus debilidades. Quizás el problema más conocido es el \textbf{problema del incremento} (ramp-up problem) o conocido también como \textbf{arranque en frío} (cold start) \citep{Ahn2008, Burke2002}. Este término de hecho se refiere a tres problemas distintos pero que están relacionados:
-
-\begin{description}
-
-\item[Problema del nuevo usuario:] cuando las recomendaciones se basan solamente en comparaciones entre las valoraciones acumuladas de un usuario objetivo y otros usuarios, si este usuario objetivo tiene pocas valoraciones es bastante difícil clasificarlo de forma correcta.
-
-\item[Problema del nuevo producto:] de forma análoga, un nuevo producto que no tiene muchas valoraciones tampoco puede ser fácilmente recomendado. Este problema aparece en dominios de recomendación de nuevos artículos, donde existe un flujo contínuo de nuevos productos y cada usuario sólo valora unos pocos. Este problema también es conocido como el problema del \textbf{valorador prematuro}, porque la primera persona que valora un producto apenas obtiene beneficio por hacerlo (esas valoraciones \textbf{prematuras} no mejoran la habilidad con que se compara un usuario con otro). 
-
-\item[Escasez:] En cualquier sistema de recomendación, el número de calificaciones ya obtenidos suele ser muy pequeña en comparación con el número de calificaciones que deben preverse. Es importante la predicción eficaz de calificaciones de un pequeño número de ejemplos. Por otra parte, el éxito del sistema de recomendación de colaboración depende de la disponibilidad de una \textbf{cantidad de usuarios}. Por ejemplo, en el sistema de recomendación de películas, se puede que muchas películas que han sido valorados por la gente sólo unos pocos y estas películas se recomienda muy rara vez, incluso si esos pocos usuarios dieron altas calificaciones a los mismos. Además, para los gustos del usuario que son inusuales en comparación con el resto de la población, no habrá ningún otro usuario que sea particularmente similar, esto genera recomendaciones pobres \citep{Adomavicius2005,Balabanovic1997}. Una de las soluciones que se ha propuesto para resolver este problema es incentivar a los usuarios de alguna forma para que proporcionen más valoraciones.
-
-\end{description}
-
+Increasingly, students and teachers rely on each other to access sources of knowledge and share their information, expanding the general scope of the educational process to include not just instruction, but the expansion of knowledge. The role change from keeper of knowledge to facilitator of learning presents a challenge and an opportunity for educators to dramatically change the way their students learn. The boundaries between teacher and student have less meaning with interactive learning.
+\section{Intelligent learning environment}
+An intelligent learning environment is a new kind of intelligent educational system, which combines the features of traditional Intelligent Tutoring Systems (ITS) and learning environments. An intelligent learning environment (ILE) includes special component to support student-driven learning, the environment module. The term environment is used to refer to that part of the system specifying or supporting the activities that the student does and the methods available to the student to do those activities [8]. Some recent ITS and ILE include also a special component called manual which provides an access to structured instructional material. The student can work with the manual via help requests or via special browsing tools exploring the instructional material on her own. An integrated ILE, which includes the environment and the manual components in addition to regular tutoring component, can support learning both procedural and declarative knowledge and provide both system-controlled and student-driven styles of learning.
 \paragraph{}
 Los \textbf{sistemas de recomendación colaborativos} dependen de las coincidencias entre las valoraciones de los distintos usuarios y tienen dificultades en encontrar estas coincidencias si el espacio de valoraciones es poco denso (sólo unos pocos usuarios han valorado los mismos productos). 
 \paragraph{}

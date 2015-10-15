@@ -20,15 +20,19 @@
 \contentsline {section}{\numberline {1.1}Thesis Structure}{3}
 \contentsline {chapter}{\chapternumberline {2}Theory and Background}{4}
 \contentsline {paragraph}{}{4}
-\contentsline {section}{\numberline {2.1}Antecedentes}{4}
+\contentsline {section}{\numberline {2.1}Learning environment}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{5}
 \contentsline {paragraph}{}{5}
-\contentsline {section}{\numberline {2.2}Definici\IeC {\'o}n}{5}
+\contentsline {section}{\numberline {2.2}Interactive learning environment}{5}
+\contentsline {paragraph}{}{5}
 \contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{6}
-\contentsline {paragraph}{}{6}
-\contentsline {section}{\numberline {2.3}Ventajas y desventajas}{7}
+\contentsline {section}{\numberline {2.3}Intelligent learning environment}{6}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
 \contentsline {paragraph}{}{8}
 \contentsline {paragraph}{}{8}
 \contentsline {paragraph}{}{8}
@@ -37,104 +41,100 @@
 \contentsline {paragraph}{}{9}
 \contentsline {paragraph}{}{10}
 \contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{11}
-\contentsline {paragraph}{}{12}
-\contentsline {paragraph}{}{12}
-\contentsline {section}{\numberline {2.4}T\IeC {\'e}cnicas de recomendaci\IeC {\'o}n}{12}
-\contentsline {section}{\numberline {2.5}M\IeC {\'e}todos h\IeC {\'\i }bridos}{13}
-\contentsline {section}{\numberline {2.6}Estructura de los sistemas de recomendaci\IeC {\'o}n}{14}
-\contentsline {subsection}{\numberline {2.6.1}Entradas/salidas}{15}
-\contentsline {paragraph}{}{15}
-\contentsline {paragraph}{}{16}
-\contentsline {subsection}{\numberline {2.6.2}M\IeC {\'e}todo de generaci\IeC {\'o}n de recomendaciones}{17}
-\contentsline {subsection}{\numberline {2.6.3}Grado de personalizaci\IeC {\'o}n}{18}
-\contentsline {section}{\numberline {2.7}Algoritmos de recomendaci\IeC {\'o}n}{18}
-\contentsline {subsection}{\numberline {2.7.1}Filtrado colaborativo basado en memoria}{19}
+\contentsline {section}{\numberline {2.4}T\IeC {\'e}cnicas de recomendaci\IeC {\'o}n}{11}
+\contentsline {section}{\numberline {2.5}M\IeC {\'e}todos h\IeC {\'\i }bridos}{12}
+\contentsline {section}{\numberline {2.6}Estructura de los sistemas de recomendaci\IeC {\'o}n}{13}
+\contentsline {subsection}{\numberline {2.6.1}Entradas/salidas}{13}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {2.6.2}M\IeC {\'e}todo de generaci\IeC {\'o}n de recomendaciones}{15}
+\contentsline {subsection}{\numberline {2.6.3}Grado de personalizaci\IeC {\'o}n}{16}
+\contentsline {section}{\numberline {2.7}Algoritmos de recomendaci\IeC {\'o}n}{17}
+\contentsline {subsection}{\numberline {2.7.1}Filtrado colaborativo basado en memoria}{17}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{20}
+\contentsline {subsection}{\numberline {2.7.2}Filtrado colaborativo basado en modelo}{20}
 \contentsline {paragraph}{}{20}
 \contentsline {paragraph}{}{20}
 \contentsline {paragraph}{}{21}
-\contentsline {subsection}{\numberline {2.7.2}Filtrado colaborativo basado en modelo}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {2.7.3}Algoritmo basado en contenido}{21}
+\contentsline {paragraph}{}{21}
 \contentsline {paragraph}{}{22}
 \contentsline {paragraph}{}{22}
 \contentsline {paragraph}{}{22}
-\contentsline {paragraph}{}{22}
-\contentsline {subsection}{\numberline {2.7.3}Algoritmo basado en contenido}{23}
-\contentsline {paragraph}{}{23}
-\contentsline {paragraph}{}{23}
-\contentsline {paragraph}{}{23}
-\contentsline {paragraph}{}{24}
-\contentsline {subsubsection}{Similaridad Basada en Coseno}{25}
-\contentsline {subsubsection}{C\IeC {\'a}lculo de la predicci\IeC {\'o}n}{25}
-\contentsline {section}{\numberline {2.8}Ejemplos}{26}
-\contentsline {section}{\numberline {2.9}L\IeC {\'o}gica difusa}{29}
+\contentsline {subsubsection}{Similaridad Basada en Coseno}{23}
+\contentsline {subsubsection}{C\IeC {\'a}lculo de la predicci\IeC {\'o}n}{23}
+\contentsline {section}{\numberline {2.8}Ejemplos}{24}
+\contentsline {section}{\numberline {2.9}L\IeC {\'o}gica difusa}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {subsection}{\numberline {2.9.1}Sistemas de Inferencia Difuso}{28}
+\contentsline {paragraph}{}{29}
+\contentsline {paragraph}{}{29}
 \contentsline {paragraph}{}{30}
 \contentsline {paragraph}{}{30}
-\contentsline {subsection}{\numberline {2.9.1}Sistemas de Inferencia Difuso}{30}
-\contentsline {paragraph}{}{30}
-\contentsline {paragraph}{}{31}
+\contentsline {subsubsection}{Sistema difuso tipo Mamdani}{30}
+\contentsline {subsubsection}{Sistema difuso tipo Sugeno}{31}
 \contentsline {paragraph}{}{31}
 \contentsline {paragraph}{}{32}
-\contentsline {subsubsection}{Sistema difuso tipo Mamdani}{32}
-\contentsline {subsubsection}{Sistema difuso tipo Sugeno}{33}
+\contentsline {chapter}{\chapternumberline {3}Arquitectura}{33}
+\contentsline {section}{\numberline {3.1}Modelo de datos}{33}
 \contentsline {paragraph}{}{33}
 \contentsline {paragraph}{}{33}
-\contentsline {chapter}{\chapternumberline {3}Arquitectura}{35}
-\contentsline {section}{\numberline {3.1}Modelo de datos}{35}
+\contentsline {section}{\numberline {3.2}Sistema de recomendaci\IeC {\'o}n h\IeC {\'\i }brido}{34}
+\contentsline {paragraph}{}{34}
+\contentsline {subsection}{\numberline {3.2.1}M\IeC {\'o}dulo de filtrado colaborativo}{35}
 \contentsline {paragraph}{}{35}
 \contentsline {paragraph}{}{35}
-\contentsline {section}{\numberline {3.2}Sistema de recomendaci\IeC {\'o}n h\IeC {\'\i }brido}{36}
-\contentsline {paragraph}{}{36}
-\contentsline {subsection}{\numberline {3.2.1}M\IeC {\'o}dulo de filtrado colaborativo}{37}
+\contentsline {subsection}{\numberline {3.2.2}M\IeC {\'o}dulo basado en contenido}{36}
 \contentsline {paragraph}{}{37}
 \contentsline {paragraph}{}{37}
-\contentsline {subsection}{\numberline {3.2.2}M\IeC {\'o}dulo basado en contenido}{38}
+\contentsline {section}{\numberline {3.3}Sistema difuso para la selecci\IeC {\'o}n de recomendaci\IeC {\'o}n}{37}
+\contentsline {paragraph}{}{38}
 \contentsline {paragraph}{}{39}
 \contentsline {paragraph}{}{39}
-\contentsline {section}{\numberline {3.3}Sistema difuso para la selecci\IeC {\'o}n de recomendaci\IeC {\'o}n}{39}
-\contentsline {paragraph}{}{40}
-\contentsline {paragraph}{}{41}
-\contentsline {paragraph}{}{41}
-\contentsline {paragraph}{}{45}
-\contentsline {chapter}{\chapternumberline {4}Recomet: Recomendaciones de Tijuana}{46}
-\contentsline {paragraph}{}{46}
-\contentsline {section}{\numberline {4.1}Aplicaci\IeC {\'o}n}{48}
-\contentsline {subsubsection}{Administraci\IeC {\'o}n}{48}
-\contentsline {subsubsection}{Funcionalidad}{49}
-\contentsline {paragraph}{}{50}
+\contentsline {paragraph}{}{43}
+\contentsline {chapter}{\chapternumberline {4}Recomet: Recomendaciones de Tijuana}{44}
+\contentsline {paragraph}{}{44}
+\contentsline {section}{\numberline {4.1}Aplicaci\IeC {\'o}n}{46}
+\contentsline {subsubsection}{Administraci\IeC {\'o}n}{46}
+\contentsline {subsubsection}{Funcionalidad}{47}
+\contentsline {paragraph}{}{48}
+\contentsline {paragraph}{}{51}
+\contentsline {subsubsection}{M\IeC {\'o}dulo de filtrado colaborativo}{52}
 \contentsline {paragraph}{}{53}
-\contentsline {subsubsection}{M\IeC {\'o}dulo de filtrado colaborativo}{54}
+\contentsline {subsubsection}{M\IeC {\'o}dulo basado en contenido}{53}
+\contentsline {paragraph}{}{53}
+\contentsline {paragraph}{}{53}
+\contentsline {chapter}{\chapternumberline {5}M\IeC {\'e}todos de evaluaci\IeC {\'o}n}{55}
+\contentsline {section}{\numberline {5.1}M\IeC {\'e}tricas}{55}
 \contentsline {paragraph}{}{55}
-\contentsline {subsubsection}{M\IeC {\'o}dulo basado en contenido}{55}
-\contentsline {paragraph}{}{55}
-\contentsline {paragraph}{}{55}
-\contentsline {chapter}{\chapternumberline {5}M\IeC {\'e}todos de evaluaci\IeC {\'o}n}{57}
-\contentsline {section}{\numberline {5.1}M\IeC {\'e}tricas}{57}
+\contentsline {paragraph}{}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {subsection}{\numberline {5.1.1}M\IeC {\'e}todos estad\IeC {\'\i }sticos}{57}
 \contentsline {paragraph}{}{57}
+\contentsline {subsection}{\numberline {5.1.2}M\IeC {\'e}tricas de decisi\IeC {\'o}n}{57}
 \contentsline {paragraph}{}{58}
-\contentsline {paragraph}{}{58}
-\contentsline {paragraph}{}{58}
-\contentsline {paragraph}{}{58}
-\contentsline {subsection}{\numberline {5.1.1}M\IeC {\'e}todos estad\IeC {\'\i }sticos}{59}
+\contentsline {subsubsection}{Precisi\IeC {\'o}n y Recuperaci\IeC {\'o}n}{58}
+\contentsline {subsubsection}{Caracter\IeC {\'\i }stica de Funcionamiento del Receptor (ROC por sus siglas en ingl\IeC {\'e}s)}{58}
+\contentsline {section}{\numberline {5.2}Evaluaci\IeC {\'o}n del sistema}{59}
 \contentsline {paragraph}{}{59}
-\contentsline {subsection}{\numberline {5.1.2}M\IeC {\'e}tricas de decisi\IeC {\'o}n}{59}
-\contentsline {paragraph}{}{60}
-\contentsline {subsubsection}{Precisi\IeC {\'o}n y Recuperaci\IeC {\'o}n}{60}
-\contentsline {subsubsection}{Caracter\IeC {\'\i }stica de Funcionamiento del Receptor (ROC por sus siglas en ingl\IeC {\'e}s)}{60}
-\contentsline {section}{\numberline {5.2}Evaluaci\IeC {\'o}n del sistema}{61}
-\contentsline {paragraph}{}{61}
+\contentsline {paragraph}{}{62}
+\contentsline {paragraph}{}{62}
+\contentsline {paragraph}{}{62}
+\contentsline {chapter}{\chapternumberline {6}Conclusiones y Trabajo Futuro}{64}
+\contentsline {section}{\numberline {6.1}Conclusiones}{64}
 \contentsline {paragraph}{}{64}
-\contentsline {paragraph}{}{64}
-\contentsline {paragraph}{}{64}
-\contentsline {chapter}{\chapternumberline {6}Conclusiones y Trabajo Futuro}{66}
-\contentsline {section}{\numberline {6.1}Conclusiones}{66}
+\contentsline {paragraph}{}{65}
+\contentsline {paragraph}{}{65}
+\contentsline {paragraph}{}{65}
 \contentsline {paragraph}{}{66}
-\contentsline {paragraph}{}{67}
-\contentsline {paragraph}{}{67}
-\contentsline {paragraph}{}{67}
-\contentsline {paragraph}{}{68}
-\contentsline {paragraph}{}{68}
-\contentsline {section}{\numberline {6.2}Trabajo Futuro}{68}
-\contentsline {chapter}{Bibliograf\'{\i }a}{71}
-\contentsline {appendix}{\chapternumberline {A}Programaci\IeC {\'o}n del sistema}{72}
-\contentsline {subsubsection}{Matriz de valoraciones}{85}
+\contentsline {paragraph}{}{66}
+\contentsline {section}{\numberline {6.2}Trabajo Futuro}{66}
+\contentsline {chapter}{Bibliograf\'{\i }a}{69}
+\contentsline {appendix}{\chapternumberline {A}Programaci\IeC {\'o}n del sistema}{70}
+\contentsline {subsubsection}{Matriz de valoraciones}{83}
