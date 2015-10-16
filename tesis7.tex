@@ -273,48 +273,6 @@ Increasingly, students and teachers rely on each other to access sources of know
 \section{Intelligent learning environment}
 An intelligent learning environment is a new kind of intelligent educational system, which combines the features of traditional Intelligent Tutoring Systems (ITS) and learning environments. An intelligent learning environment (ILE) includes special component to support student-driven learning, the environment module. The term environment is used to refer to that part of the system specifying or supporting the activities that the student does and the methods available to the student to do those activities [8]. Some recent ITS and ILE include also a special component called manual which provides an access to structured instructional material. The student can work with the manual via help requests or via special browsing tools exploring the instructional material on her own. An integrated ILE, which includes the environment and the manual components in addition to regular tutoring component, can support learning both procedural and declarative knowledge and provide both system-controlled and student-driven styles of learning.
 \paragraph{}
-Los \textbf{sistemas de recomendación colaborativos} dependen de las coincidencias entre las valoraciones de los distintos usuarios y tienen dificultades en encontrar estas coincidencias si el espacio de valoraciones es poco denso (sólo unos pocos usuarios han valorado los mismos productos). 
-\paragraph{}
-El \textbf{problema de la densidad} se reduce de alguna forma cuando empleamos enfoques basados en modelos. La \textbf{densidad} sigue siendo un problema importante en dominios tales como el filtrado de noticias, ya que existen muchos productos disponibles, y a no ser que, la base de datos sea muy grande, es bastante difícil obtener otro usuario que comparta un gran número de productos valorados.
-\paragraph{}
-Estos problemas sugieren que las técnicas puramente colaborativas, funcionan mejor en problemas donde la \textbf{densidad de usuarios} es relativamente alta en comparación con el universo de productos, el cual debería ser pequeño y estático. Si el conjunto de productos cambia rápidamente, las valoraciones antigüas apenas sirven para los nuevos usuarios, que no han sido capaces de tener valoraciones en comparación con aquellos usuarios existentes. Si el conjunto de productos es muy grande y los usuarios apenas valoran productos, entonces las probabilidades de tener valoraciones comunes con otros usuarios son muy pequeñas.
-\paragraph{}
-Los \textbf{sistemas de recomendación colaborativos} trabajan mejor para un usuario que encaja en un grupo de usuarios numeroso de gustos similares. La técnica no trabaja bien cuando existen usuarios \textbf{ovejas grises} \citep{Claypool1999}, que están entre las fronteras de dos grupos de usuarios. Este problema también se presenta en los \textbf{sistemas de recomendación demográficos} que intentan clasificar a los usuarios basándose en sus características personales. 
-\paragraph{}
-Por otro lado, los sistemas de recomendación demográficos no sufren del problema del \textbf{nuevo usuario}, porque no requieren una lista de valoraciones de un usuario. En vez de esto, tienen el problema de que deben recoger información demográfica. Con el incremento de la sensibilidad de los datos en línea, especialmente en el contexto de comercio electrónico \citep{Information1997}, es bastante difícil que los sistemas de recomendación demográficos tengan éxito, ya que, la mayoría de la información necesaria para realizar las recomendaciones es información que el usuario no suele estar dispuesto a revelar.
-\paragraph{}
-Los \textbf{sistemas de recomendación basados en contenido} tienen el problema de que deben acumular suficiente información sobre los gustos y necesidades de los usuarios para realizar recomendaciones fiables. Además, están limitados a las características que explícitamente están asociadas con los productos que pueden recomendar. Por ejemplo, un sistema de recomendación basado en contenido de películas, sólo puede basar sus recomendaciones en la descripción escrita de las películas: nombres de los actores, argumento, etcétera,  debido a que no puede obtener ninguna información de la película en sí, esto hace que estas técnicas basen sus recomendaciones únicamente en los datos descriptivos disponibles.
-\paragraph{}
-Los \textbf{sistemas de recomendación colaborativos} solo confían en las valoraciones que pueden ser utilizadas para recomendar productos sin tener en cuenta los datos descriptivos. Incluso en la presencia de datos descriptivos, se ha demostrado que los sistemas de recomendación colaborativos pueden ser más precisos que los basados en contenido.  %Checar la referencia.
-\paragraph{}
-La gran ventaja de los sistemas de recomendación colaborativos sobre los basados en contenido está relacionado con la habilidad de \textbf{cruzar géneros (cross-genere recommendations)} o \textbf{salir de la caja} (outside the box). Por ejemplo, puede ocurrir que un aficionado a la música que le guste el jazz, también le guste la música clásica, pero un sistema de recomendación basado en contenido, entrenado en su afición en jazz, sería incapaz de sugerir productos de música clásica si ninguna de las características (intérpretes, instrumentos o repertorio) coincide con los productos de las otra categoría, cosa bastante habitual. Sólo si se mira fuera de las preferencias del individuo se podrían realizar tales recomendaciones.\\
-Ambas técnicas de recomendación sufren del efecto \textbf{cartera (portafolio)}. Un sistema de recomendación ideal no sugeriría algo que el usuario ya conoce o una película que ya ha visto.
-\paragraph{}
-El problema se complica en dominios tales como el filtrado de noticias, donde es muy fácil encontrarse la misma noticia repetida varias veces, pero de fuentes distintas, pero donde también es muy fácil encontrarse la misma noticia presentando nuevos hechos o perspectivas que, podrían ser de interés para el usuario y estas no serían recomendadas por el sistema. Por ejemplo, el sistema \textbf{DailyLearner} \citep{Billsus2000}, utiliza un umbral superior de similitud en su sistema de recomendación basado en contenido para dejar fuera aquellas noticias demasiado similares a aquellas que el usuario ya ha leído.
-\paragraph{}
-Los \textbf{sistemas de recomendación basados en conocimiento} no tienen problemas de incremento o densidad, pues no basan sus recomendaciones en datos acumulados. Sin embargo, presenta un inconveniente como todos los sistemas basados en conocimiento: necesitan adquirir el conocimiento.\\
-A pesar de este inconveniente, los \textbf{sistemas de recomendación basados en conocimiento} tienen algunas características beneficiosas. Son adecuados para demandas puntuales, pues requiere menos información del usuario que otros sistemas de recomendación. No tienen ningún problema al comienzo del funcionamiento del sistema, en donde las sugerencias son de baja de calidad porque el sistema acaba de arrancar y no tienen ninguna información de preferencia de ningún usuario. Como inconveniente, podría citarse que no es capaz de descubrir grupos de usuarios tal y como hacen los sistemas de recomendación colaborativos. \\
-Por otro lado, puede hacer recomendaciones tan variadas como su base de conocimiento lo permita. Los \textbf{sistemas de recomendación colaborativos} y \textbf{demográficos} tienen la capacidad única de poder establecer relaciones entre géneros y poder recomendar productos no cercanos a las preferencias habituales de los usuarios. Los sistemas de recomendación basados en conocimiento podrían hacer lo mismo, solo si tales asociaciones han sido identificadas a priori por un experto.
-Todas estas \textbf{técnicas basadas en el aprendizaje} (colaborativas, basadas en contenido y demográficas) sufren del problema del comienzo de una forma u otra.
-\paragraph{}
-Una vez que el perfil de usuario se ha establecido en el sistema, es difícil que se cambien éstas preferencias. Por ejemplo, si a alguien le gustaba comer carne y se hace vegetariano, continuará recibiendo recomendaciones de comida no vegetariana por algún tiempo, hasta que las nuevas valoraciones hayan cambiado las preferencias almacenadas. 
-\paragraph{}
-Muchos sistemas de recomendación solventan estos problemas incluyendo algún sistema de envejecimiento de valoraciones, para que las más antigüas tengan menos influencias, pero se corre el riesgo de perder información de preferencia antigüa pero valiosa, que represente de forma precisa las preferencias del usuario.  %Checar la referencia de definicion de perfil.
-
-\section{Técnicas de recomendación}
-Con base en la información de la que disponen los sistemas de recomendación (datos de los elementos, datos del usuario y algoritmos de recomendación), existen 6 técnicas de recomendación \citep{Burke2002}:
-
-\begin{description}
-\item[Colaborativa:] acumula recomendaciones de usuarios sobre los elementos y gustos similares. Con estos datos se encarga de generar nuevas recomendaciones a otros usuarios del sistema.
-\item[Demográfica:] clasifica a los usuarios en grupos y hace recomendaciones de acuerdo con el grupo.
-\item[Basada en el contenido:] (es una ampliación del filtrado de información), aprende el perfil del usuario basado en las características de los elementos que él mismo ha jerarquizado y ofrece recomendaciones de acuerdo con su perfil. Esta técnica y la colaborativa se fundamentan en un modelo a largo plazo, que se va actualizando a medida que llegan evidencias.
-\item[Basada en el conocimiento:] dispone de información acerca de cómo un elemento satisface una necesidad del usuario y establece relación entre una necesidad y una recomendación. El perfil puede ser cualquier estructura de datos que soporte esta relación. Algunos sistemas han usado el razonamiento basado en casos para la recomendación.
-\item[Basada en la utilidad:] no construye generalizaciones a largo plazo, sino que compara la necesidad del usuario con el conjunto de opciones disponibles, mediante una función de la utilidad de cada objeto para el usuario; esa función seria su perfil.
-\item[Basada en casos:] utilizan la información sobre la resolución de problemas (casos) previos para la resolver el caso actual. Tanto los sistemas de recomendación basados en conocimiento como los sistemas de recomendación basados en utilidad pueden utilizar técnicas de  \textbf{Razonamiento Basado en Casos (CBR por sus siglas en inglés)}. Por tanto, los sistemas basados en casos pueden verse como un subtipo de ambos, según el sistema de recomendación base del que parta. Los basados en utilidad utilizan como función de utilidad las técnicas con las que se resolvieron casos parecidos.
-\end{description}
-En general, los sistemas de recomendación parten de un algoritmo global para realizar la recomendación, este debe encontrar la similitud entre un usuario y las preferencias del mismo \citep{GuzmanAlvarez}.
-
-
 \section{Métodos híbridos}
 
 Varios sistemas de recomendación utilizan un enfoque híbrido, la combinación de métodos de colaborativo y basado en contenido, que ayuda a evitar ciertas restricciones del basado en contenido y filtrado colaborativo \citep{Balabanovic1997, Claypool1999, Schein2002,Soboroff1999, Basu1998}. Las diferentes maneras de combinar estos métodos en un sistema de recomendación híbrido puede ser clasificadas de la siguiente manera:
@@ -327,21 +285,10 @@ Varios sistemas de recomendación utilizan un enfoque híbrido, la combinación 
 
 Todos los enfoques anteriores han sido utilizados por investigadores de los sistemas de recomendación.
 
-\section{Estructura de los sistemas de recomendación}
-Los elementos fundamentales que intervienen en el esquema de funcionamiento de un sistema de recomendación se pueden utilizar como criterios de clasificación \citep{Porcel2004} y son los siguientes:
-
-\begin{itemize}
-	\item Las entradas/salidas del proceso de generación de la recomendación.
-	\item El método usado para generar las recomendaciones.
-	\item El grado de personalización.
-\end{itemize}
-
-\subsection{Entradas/salidas}
-
-Los sistemas de recomendación para generar recomendaciones, usan las entradas del usuario activo, pero también información sobre los ítems o información del resto de usuarios del sistema, que actúan como colaboradores. En este sentido, la \textbf{realimentación} por parte de los usuarios es muy importante de cara a albergar una información más completa ante futuros procesos de generación de recomendaciones. 
-\paragraph*{}
-Para poder realizar una recomendación a un usuario, es necesario conocer algún tipo de información sobre sus preferencias. Además, dependiendo del tipo de sistema también necesitaremos información sobre los ítems a recomendar o información reunida sobre el resto de usuarios del sistema (comunidad de usuarios o colaboradores). \\
-Esta información necesaria para realizar las recomendaciones constituye la entrada o entradas del sistema, como se muestra en la figura \ref{fig:procesoRecomendacion} \citep{Porcel2004}.\\
+\section{Fuzzy Logic}
+\subsection{Fuzzy sets}
+\subsection{Fuzzy logic controller}
+\section{Learning Object}
 
 \begin{figure}[H] 
  \centering 
