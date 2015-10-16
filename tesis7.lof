@@ -1,28 +1,29 @@
 \select@language {spanish}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Esquema de proceso de generaci\IeC {\'o}n de una recomendaci\IeC {\'o}n.}}{8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquema de funcionamiento algoritmo basado en contenido.}}{17}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de bloques para un Sistema de Inferencia Difuso.}}{25}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Sistema de inferencia difuso tipo Mamdani usando producto y m\IeC {\'a}ximo.}}{26}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Sistema de Inferencia Difuso tipo Sugeno.}}{27}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Esquema de proceso de generaci\IeC {\'o}n de una recomendaci\IeC {\'o}n.}}{10}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelo de datos del sistema.}}{29}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Esquema de funcionamiento del algoritmo de filtrado colaborativo.}}{31}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Esquema de funcionamiento del algoritmo basado en contenido.}}{31}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sistema de inferencia difuso del experto.}}{32}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sistema de inferencia difuso para asignar pesos a los algoritmos.}}{34}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Arquitectura del sistema de recomendaci\IeC {\'o}n.}}{38}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema de funcionamiento algoritmo basado en contenido.}}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de bloques para un Sistema de Inferencia Difuso.}}{27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sistema de inferencia difuso tipo Mamdani usando producto y m\IeC {\'a}ximo.}}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sistema de Inferencia Difuso tipo Sugeno.}}{29}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Administraci\IeC {\'o}n del sitio.}}{41}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pantalla principal del prototipo.}}{42}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Listado de restaurantes para el usuario invitado.}}{43}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Informaci\IeC {\'o}n de perfiles de restaurantes para el usuario registrado.}}{44}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Lista de inter\IeC {\'e}s del usuario activo.}}{45}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Perfil del usuario activo.}}{46}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Manipulaci\IeC {\'o}n de informaci\IeC {\'o}n de restaurantes desde el administrador.}}{47}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Recomendaci\IeC {\'o}n final para el usuario activo.}}{49}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Modelo de datos del sistema.}}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Esquema de funcionamiento del algoritmo de filtrado colaborativo.}}{33}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Esquema de funcionamiento del algoritmo basado en contenido.}}{33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sistema de inferencia difuso del experto.}}{34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sistema de inferencia difuso para asignar pesos a los algoritmos.}}{36}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Arquitectura del sistema de recomendaci\IeC {\'o}n.}}{40}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Gr\IeC {\'a}fica de Ra\IeC {\'\i }z del Error Cuadr\IeC {\'a}tico Medio(RMSE).}}{56}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Administraci\IeC {\'o}n del sitio.}}{43}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Pantalla principal del prototipo.}}{44}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Listado de restaurantes para el usuario invitado.}}{45}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Informaci\IeC {\'o}n de perfiles de restaurantes para el usuario registrado.}}{46}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Lista de inter\IeC {\'e}s del usuario activo.}}{47}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Perfil del usuario activo.}}{48}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Manipulaci\IeC {\'o}n de informaci\IeC {\'o}n de restaurantes desde el administrador.}}{49}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Recomendaci\IeC {\'o}n final para el usuario activo.}}{51}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Gr\IeC {\'a}fica de Ra\IeC {\'\i }z del Error Cuadr\IeC {\'a}tico Medio(RMSE).}}{58}
 \addvspace {10pt}
 \addvspace {10pt}

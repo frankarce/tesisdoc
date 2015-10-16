@@ -14,18 +14,14 @@
 %Para la inscripción con guión en español
 %\usepackage[spanish]{babel}
 \usepackage[spanish]{babel}
-
 \usepackage{float}
 \usepackage{xcolor,calc}
 %Para algoritmos
 \usepackage{amsthm}
 \usepackage{amssymb,amsmath}
 \usepackage{multicol}
-
-
 %%%%%
 %%%%%Editen el archivo texmf/tex/generic/config/laguange.dat
-
 %%%%%Borren el % que esta la principio de la linea spanish. Si mal no recuerdo viene preparado con silabeo en alemán, si no lo quieren pongan un % adelante. También viene predefinido inglés (o alguna de sus variantes, por ejemplo american) hasta donde sé este tiene que estar definido así que no lo saquen.
 %%%%%
 %%%%%
@@ -273,23 +269,25 @@ Increasingly, students and teachers rely on each other to access sources of know
 \section{Intelligent learning environment}
 An intelligent learning environment is a new kind of intelligent educational system, which combines the features of traditional Intelligent Tutoring Systems (ITS) and learning environments. An intelligent learning environment (ILE) includes special component to support student-driven learning, the environment module. The term environment is used to refer to that part of the system specifying or supporting the activities that the student does and the methods available to the student to do those activities [8]. Some recent ITS and ILE include also a special component called manual which provides an access to structured instructional material. The student can work with the manual via help requests or via special browsing tools exploring the instructional material on her own. An integrated ILE, which includes the environment and the manual components in addition to regular tutoring component, can support learning both procedural and declarative knowledge and provide both system-controlled and student-driven styles of learning.
 \paragraph{}
-\section{Métodos híbridos}
-
-Varios sistemas de recomendación utilizan un enfoque híbrido, la combinación de métodos de colaborativo y basado en contenido, que ayuda a evitar ciertas restricciones del basado en contenido y filtrado colaborativo \citep{Balabanovic1997, Claypool1999, Schein2002,Soboroff1999, Basu1998}. Las diferentes maneras de combinar estos métodos en un sistema de recomendación híbrido puede ser clasificadas de la siguiente manera:
-\begin{enumerate}
-\item La aplicación del filtrado colaborativo y basado en contenido en métodos separados y la combinación de sus predicciones.
-\item La incorporación de algunas características del basado en contenido en un enfoque de filtrado colaborativo.
-\item La incorporación de algunas características de filtrado colaborativo en un enfoque de basado en contenido.
-\item La construcción de un modelo general unificador que incorpora características de ambos, basado en contenido y filtrado colaborativo.
-\end{enumerate}
-
-Todos los enfoques anteriores han sido utilizados por investigadores de los sistemas de recomendación.
-
 \section{Fuzzy Logic}
+Zadeh introduced the term fuzzy logic in his work ?fuzzy sets?, where he described the mathematics of the fuzzy set theory in 1965.Fuzzy logic gives the opportunity to model conditions that are defined with imprecision.
+\paragraph{}The tolerance of the fuzzy in the process of human rezoning suggests that most of the logic behind the human rezoning is not the traditional bi-valued logic, or even the multi-valued, but the logic with fuzzy values, with fuzzy connections and fuzzy rules or inferences.
+\paragraph{}
 \subsection{Fuzzy sets}
+Fuzzy sets are an extension of the classic set theory and, as it name implies it, it is a set with boundaries not well defined, this means that the transition of belonging or not belonging to certain set is gradual, and this smooth transition is characterized by grades of membership that gives the fuzzy sets flexibility in modeling linguistic expressions commonly used, such as ?the weather is cold? or ?Gustavo is tall?.
+\paragraph{}
 \subsection{Fuzzy logic controller}
+Fuzzy control is a control method based on fuzzy logic. Just as fuzzy logic can be described simply as ?computing with words rather than numbers? fuzzy control can be described simply as ?control with sentences rather than equations?.
+\paragraph{}The collection of rules is called a rule base. The rules are in the familiar if-then format, and formally the ?if? side is called the antecedent and the ?then? side is called the consequent.
+\paragraph{}
+Fuzzy controllers are being used in various control schemes; the most used is the direct control, where the fuzzy controller is in the forward path in a feedback control system. The process output is compares with a reference, and if there is a deviation, the controller takes action according to the control strategy.
+\paragraph{}In a feed forward control a measurable disturbance is being compensated, it requires a good model, but if a mathematical model is difficult or expensive to obtain, a fuzzy model may be useful. Fuzzy rules are also used to correct tuning parameters. If a nonlinear plant changes operating point it may be possible to change the parameters of the controller according to each operating point. His is called gain scheduling since it was originally used to change process gains. 
+\paragraph{}A gain scheduling controller contains a linear controller whose parameters are changed as a function of the operating point in a preprogrammed way. It requires thorough knowledge of the plant, but it is often a good way to compensate for nonlinearities and parameter variations. Sensor measurements are used as scheduling variables that govern the change of the controller parameters, often by means of a table look-up.
+\paragraph{}
 \section{Learning Object}
-
+A learning object is "a collection of content items, practice items, and assessment items that are combined based on a single learning objective".[1] The term is credited to Wayne Hodgins when he created a working group in 1994 bearing the name[2] though the concept was first described by Gerard in 1967.[3] Learning objects go by many names, including content objects, chunks, educational objects, information objects, intelligent objects, knowledge bits, knowledge objects, learning components, media objects, reusable curriculum components, nuggets, reusable information objects, reusable learning objects, testable reusable units of cognition, training components, and units of learning. Learning objects offer a new conceptualization of the learning process: rather than the traditional "several hour chunk", they provide smaller, self-contained, re-usable units of learning.
+\paragraph{} They will typically have a number of different components, which range from descriptive data to information about rights and educational level. At their core, however, will be instructional content, practice, and assessment. A key issue is the use of metadata.Learning object design raises issues of portability, and of the object's relation to a broader learning management system.
+\paragraph{}
 \begin{figure}[H] 
  \centering 
 \framebox{
@@ -297,165 +295,8 @@ Todos los enfoques anteriores han sido utilizados por investigadores de los sist
 } \caption{Esquema de proceso de generación de una recomendación.} 
  \label{fig:procesoRecomendacion} 
 \end{figure}
-
+\chapter{Related Work}
 \paragraph{}
-La información sobre los usuarios puede venir dada de dos formas que no tienen porqué ser mutuamente exclusivas \citep{Yager2003}: por \textbf{extensión} o \textbf{intencionalmente.} Por extensión se refiere a información que se tenga sobre las experiencias pasadas del usuario con respecto a los ítems encontrados. Es lo que también conocemos como \textbf{navegación implícita} pues el usuario no es consciente de estos seguimientos. Por información expresada intencionalmente se entiende alguna especificación de los ítems deseados por los usuarios. También se le llama \textbf{navegación explícita} y consiste en que el usuario expresa intencionalmente al sistema de recomendación información sobre sus preferencias.
-Estas formas de obtener información ya se han mencionado en el punto 2.2 así como algunos ejemplos.
-\paragraph{}
-La salida del sistema está constituida por las recomendaciones generadas por el sistema, que variarán dependiendo del tipo, cantidad y formato de la información proporcionada al usuario. Algunas de las formas más comunes de representar la salida son las siguientes:
-
-\begin{itemize}
-\item Sugerencia o lista de sugerencias al usuario de una serie de ítems.
-\item Presentar al usuario predicciones del grado de satisfacción que se asignará al ítem concreto. Estas estimaciones pueden ser presentadas como personalizadas al usuario o como estimaciones generales del conjunto de colaboradores.
-\item Cuando la comunidad de usuarios es pequeña o se conocen bien los miembros de dicha comunidad, podría ser útil visualizar las valoraciones individuales de los miembros que permitiría al usuario activo obtener sus propias conclusiones sobre la efectividad de una recomendación.
-\end{itemize}
-
-Independientemente de estos formatos de salida, puede resultar muy interesante incluir una breve descripción o explicación sobre el ítem recomendado a modo de justificación del porqué de dicha recomendación.
-
-\subsection{Método de generación de recomendaciones}
-
-En esta sección se describe una serie de métodos de recomendación que se usan habitualmente en los sistemas de recomendación, pero se debe considerar que no son mutuamente exclusivos entre sí, sino complementarios, es decir, que en un mismo sistema de recomendación  se puede usar uno o varios de estos métodos. \\
-Enseguida se enuncian  los tres métodos más simples:
-
-\begin{enumerate}
-\item \textbf{Recuperación pura o recomendación nula}, en la que el sistema ofrece a los usuarios una interfaz de búsqueda a través de la cual pueden realizar consultas a una base de datos de ítems. Se trata, pues, de un sistema de búsqueda por lo que técnicamente no es un método de recomendación, aunque ante los usuarios aparece como tal.
-\item Otros sistemas usan \textbf{recomendaciones seleccionadas manualmente por expertos}, como por ejemplo editores, artistas o críticos en el caso de recomendaciones de películas o cd's de música. Los expertos identifican ítems basándose en sus propias preferencias, intereses u objetivos y crean una lista de ítems que esté disponible para todos los usuarios del sistema. A menudo acompañan estas recomendaciones de comentarios de texto que puedan ayudar a los usuarios a evaluar y entender la recomendación.
-\item En otros casos, los sistemas ofrecen \textbf{resúmenes estadísticos} calculados en función de las opiniones del conjunto de usuarios, por lo que tampoco son personalizados. Por ejemplo, se podrían tener en cuenta el porcentaje de usuarios a los que ha satisfecho o han comprado un artículo, número de usuarios que recomiendan un ítem, o una evaluación media de todos los usuarios con respecto al ítem.
-\end{enumerate}
-
-Estos métodos de generación de recomendaciones, por su simplicidad no son considerados propiamente métodos de generar recomendaciones en la literatura. Para generar las recomendaciones hay dos posibilidades comúnmente aceptadas que dan lugar a dos grandes grupos de sistemas de recomendación \citep{Yager2003, Porcel2004}: los sistemas de recomendación colaborativos y los no colaborativos o basados en contenidos (también conocidos como reclusivos).
-
-\subsection{Grado de personalización}
-Según su grado de personalización, también podremos clasificar los sistemas de recomendación:
-\begin{itemize}
-\item Cuando los sistemas de recomendación proporcionan las mismas recomendaciones a todos los usuarios, son clasificados en este ámbito como \textbf{no personalizados.} Dichas recomendaciones estarán basadas en selecciones manuales, resúmenes estadísticos u otras técnicas similares.
-\item Los sistemas de recomendación que tienen en cuenta la información actual del usuario objeto de las recomendaciones, proporcionan \textbf{personalización efímera}, puesto que las recomendaciones son respuesta al comportamiento y acciones del usuario en su sesión actual de navegación.
-\item Los sistemas de recomendación que ofrecen el mayor grado de personalización son los que usan \textbf{personalización persistente} ofreciendo recomendaciones distintas para distintos usuarios, incluso cuando estén buscando el mismo ítem. Estos sistemas están basados en el perfil de los usuarios, por lo que hacen uso de métodos de filtrado colaborativo, filtrado basado en contenidos o correlaciones entre ítems.
-\end{itemize}
-
-\section{Algoritmos de recomendación}
-El objetivo es sugerir nuevos elementos a un usuario basándose en sus elecciones anteriores y en elecciones de gente con similar historial de valoraciones. Las formas de recoger estas valoraciones es \textbf{explícita} o \textbf{implícita.} Por ejemplo el tiempo que pasa leyendo una determinada pagina web, los enlaces que sigue, el número de veces que se escucha una canción, esta sería una aproximación más clásica de minería de datos. Una vez que se tiene suficiente información del usuario se pasa a la fase de predicción y recomendación. \\
-La predicción hace referencia a estimar qué valoración daría el usuario a cada elemento mientras que recomendación se refiere a extraer los \textbf{N} elementos más recomendables (Top-N) \citep{GalanNieto1994}.
-
-\subsection{Filtrado colaborativo basado en memoria}
-
-Los sistemas de recomendación colaborativos recogen valoraciones expresadas como votaciones, sobre una serie de ítems en un dominio dado y tratan de emparejar personas que comparten las mismas necesidades o gustos \citep{Adomavicius2005, Herlocker1991, Ramezani0000}. Utilizan toda la base de datos de elementos y usuarios (valoraciones y opiniones) para generar predicciones y obtener recomendaciones personalizadas.\\
-Este algoritmo emplea \textbf{técnicas estadísticas} para encontrar a vecinos, es decir usuarios con un historial de valoraciones sobre los elementos similar al usuario actual.  
-
-\subsubsection*{Coeficiente de Correlación de Pearson}
-
-Se deriva de las fórmulas de regresión lineal, y asume que la relación entre elementos es lineal, los errores independientes y la distribución tiene varianza constante y media 0. Estas suposiciones normalmente no se producen realmente con lo que hay que valorar cómo afectan a la bondad de los resultados, pero en un gran número de casos el el rendimiento utilizando \textbf{correlación de Pearson} es apropiado. El peso que se asigna al usuario \textit{u} para predecir al usuario activo a viene dado por (\textit{$r_{a,i}$} es la votación del usuario \textit{a} al elemento \textit{i}):
-
-\begin{equation}
-\displaystyle w_{a,u} = {\sum_{i=1}^{m}( r_{a,i} - \bar{r_a} )(r_{u,i}- \bar{r_u}) \over \sigma_a \sigma_u }
-\end{equation}
-\paragraph{}
-Otras formas son las basadas en vectores (similaridad de coseno), las medidas de correlación basadas en entropía (correlación de Ringo o correlación de Spearman.)\\
-Una vez se tienen los pesos de correlación de cada algoritmo hay que saber como de confiables son estos pesos. Es posible tener un alto grado de correlación con vecinos con los que se comparten pocos elementos valorados por el usuario actual, pero con igual valoración. 
-\paragraph{}
-El uso de estos pesos proporciona una estimaciones malas puesto que para tener una idea real de la correlación, entre más votos compartidos mejor. En los casos de pocas muestras es recomendable disminuir el factor de correlación en función del numero de votos compartidos. Para intentar mejorar más los pesos de la correlación entre usuarios se puede entrar a trabajar con la varianza de los elementos que cada usuario ha votado. \\
-Si un elemento es votado positivamente por un gran porcentaje de la población, el que dos usuarios compartan esa votación dice poca información acerca de la correlación entre usuarios. Lo contrario pasa en el caso de elementos que sean votados positiva o negativamente por pocos usuarios. \\
-Para tomar en cuenta este hecho se añade a la fórmula de la \textbf{correlación de Pearson} un término con la varianza del elemento.
-
-\subsubsection*{Selección de Vecinos}
-
-En sistemas con pocos usuarios podría ser factible trabajar con todos los usuarios como vecinos tan sólo multiplicando cada uno por el peso de su correlación. Sin embargo en los sistemas actuales que poseen miles de usuarios esta vía no es posible, por ello hay que tomar un subconjunto de los usuarios, lo que no sólo mejora la eficiencia sino también la efectividad. Para elegir el número de vecinos se puede:
-\begin{enumerate}
-\item Establecer un \textbf{umbral de correlación} y tomar todos los que superen dicho umbral. El problema es que puede haber usuarios que no tengan muchos vecinos con correlación alta. Por tanto el número de vecinos sería bajo y esto provocará que el número de elementos sobre el que la vecindad de un usuario puede opinar es también bajo.
-\item Tomar \textbf{N vecinos} siempre, teniendo en cuenta que un número demasiado alto puede diluir la influencia de los vecinos con más peso y un número demasiado bajo provoca los mismos problemas que el método anterior.
-\end{enumerate}
-
-\subsubsection*{Recomendación}
-
-La forma básica consiste en tomar las notas dadas por cada vecino y proporcionarlas a su correlación con el usuario actual:
-
-\begin{equation}
-\displaystyle p_{a,i} = r_a + { \sum_{u=1}^{n}(r_{u,i}-\bar{r_u}) w_{a,u} \over  \sum_{u=1}^{n} w_{a,u}}
-\end{equation}
-
-\paragraph{}
-Una vez que se ha construido una \textbf{lista de vecinos} se combinan sus preferencias para generar una lista con los \textbf{N} elementos más recomendables para el usuario actual. Entre sus inconvenientes se encuentra la necesidad de disponer de un número mínimo de usuarios con un número mínimo de predicciones cada uno, incluído el usuario para el que se pretende realizar la recomendación.
-
-\subsection{Filtrado colaborativo basado en modelo}
-
-Desarrollan primero un modelo de las valoraciones del usuario. Tratan el problema como un problema de predicción estadística y calculan el valor esperado para cada ítem en función de las valoraciones anteriores. Para ello se utilizan distintos algoritmos de aprendizaje clustering o redes neuronales como las \textbf{Redes de Funciones de Base Radial} (RBFN).
-Por ejemplo utilizando clustering se trata de clasificar un usuario en particular dentro de una clase de usuarios y a partir de ahí se estiman las probabilidades condicionadas de esa clase hacia los elementos a evaluar.\\
-En general, ante las consultas responden más rápido que los basados en memoria, pero por contra necesitan de un proceso de aprendizaje intensivo. 
-\paragraph{}
-El consumo de memoria y de CPU de cualquier sistema de filtrado e información es muy elevado al tratar con muchos datos. La optimización de los algoritmos para mejorar su rendimiento es uno de los principales campos de investigación dentro del filtrado colaborativo.
-\paragraph{}
-Algunas características deseables en estos sistemas suponen una modificación constante de los datos, lo que hace necesarios algoritmos que tengan una coste de actualización bajo.
-Por ejemplo los nuevos elementos han de aparecer en el sistema lo antes posible. También se requiere una mejora continua del perfil del usuario. Es decir que el usuario perciba que el \textit{esfuerzo} de evaluar nuevos elementos se vea compensado con unas mejoras en las recomendaciones que se obtienen. 
-\paragraph{}
-Además de los aspectos técnicos la implantación de sistemas de recomendación puede plantear problemas sociales como la privacidad de los usuarios. Es un asunto delicado ya que para tener un buen funcionamiento es necesario conocer la máxima información posible del usuario.
-\paragraph{}
-Una primera solución es mantener tan solo la información relacionada con las votaciones y conocer del usuario solo un seudónimo, pero esto choca con el modelo de negocio basado en publicidad que se utiliza abundantemente en la actualidad \citep{GalanNieto1994}.
-
-\subsection{Algoritmo basado en contenido}
-
-En este caso, en lugar de buscar similitudes entre usuarios se buscan cercanías entre ítems. El procedimiento consiste en seleccionar los elementos  que un usuario determinado ha votado y después comprobar que tan similar es cada uno  del resto de los ítems en el sistema para terminar recomendando los más parecidos \citep{Ramezani0000}. 
-\paragraph{}
-Existen distintas formas de evaluar la similitud entre elementos pero el procedimiento genérico consiste en tomar dos elementos \textbf{x1, x2} y después calcular su similitud a partir de todos los usuarios que han votado ambos elementos. En teoría es la misma aproximación que la que se tenía con algoritmos basados en vecinos cercanos. La ventaja es que en el caso de los elementos la similitud entre ellos es menos variable que la similitud entre usuarios, lo que permite hacer el proceso mucho más rápido \citep{Sarwar2001, Deshpande2004}.
-
-\paragraph{}
-En un sistema basado en contenido, los objetos de interés se definen por sus características asociadas. Por ejemplo, los sistemas de texto de la recomendación como el sistema de filtrado de grupo de noticias \textbf{NewsWeeder} utiliza las palabras de sus textos como rasgos. Una recomendación basada en contenido construye de un perfil de intereses de usuarios en base a las características presentes en los objetos que el usuario ha calificado. Schafer, Konstan y Riedl llaman a esto \textbf{correlación ítem-a-ítem}. \\
-Al igual que en el caso del algoritmo colaborativo, el perfil de usuario en un algoritmo basado en contenido es el modelo a largo plazo y se actualiza en la medida que se tenga más información sobre las preferencias del usuario.
-\paragraph{}
-El funcionamiento de estos sistemas dependerá en gran medida del tipo de información de descripción que se utilice en la construcción del perfil de usuario. Esta información se puede dividir en:
-\begin{description}
-\item [Conjunto de características:] asociado a cada producto puede aparecer un conjunto de características que lo describe, como por ejemplo el autor de un libro, serie a la que pertenece, actores de una película, consumo medio si estamos hablando de vehículos. 
-\item [Información textual sobre el producto:] es un documento que describe dicho producto (un resumen de un libro, el argumento de una película, etcétera.). La principal diferencia con respecto al conjunto de características, es que la información no está estructurada.
-\end{description}
-
-\paragraph{}
-Existen sistemas basados en contenido que solo trabajan con los conjuntos de características asociados a cada ítem.  Estos tienen un esquema de  funcionamiento similar al que podemos ver en la figura \ref{fig:esquemaFC} \citep{PerezCordon2008}, se analizan las características de los productos comprados o valorados positivamente por el usuario, construyen un perfil de usuario y por último, usan este perfil de usuario para buscar nuevos productos que puedan satisfacer al usuario y los recomienda.\\
-
-\begin{figure}[H]
- \centering 
-\framebox{
-\includegraphics[width=0.9\textwidth]{./images/esquemaBC2.pdf} 
-} \caption{Esquema de funcionamiento algoritmo basado en contenido.} 
- \label{fig:esquemaFC} 
-\end{figure}
-
-\subsubsection{Similaridad Basada en Coseno}
-
-Se considera cada elemento como un vector dentro de un espacio vectorial de \textbf{M} dimensiones y se calcula la similitud como el coseno del ángulo que forman. Es decir, si tenemos dos vectores \textbf{$x_1$, $x_2$} que consisten en un array cuyos elementos son las votaciones recibidas de cada usuario. Su similitud será:
-
-\begin{equation}
-%\displaystyle Cos(x_1,x_2)={\vec{x_1} \cdot  \vec{x_2} \over \parallel \vec{x_2} \parallel \Delta \parallel \vec{x_1} \parallel} 
-\displaystyle Cos(x_1,x_2)={\vec{x_1} \cdot  \vec{x_2} \over \parallel \vec{x_2} \parallel  \parallel \vec{x_1} \parallel} 
-\end{equation}
-
-\subsubsection{Cálculo de la predicción}
-
-Una vez que se elige un método para computar la relación entre elementos quedan por calcular los elementos que son más parecidos a los del usuario. De nuevo existen varias aproximaciones.
-
-\begin{description}
-\item [Suma ponderada.] Se toman todos los elementos que el usuario ha votado. Se toma un elemento \textbf{x1} y para ese elemento se suman todos los coeficientes de similitud entre ese elemento y los elementos votados por el usuario, proporcionados al valor del voto. Siendo \textbf{N} cada elemento votado por el usuario \textbf{$S_{i,N}$} La similitud entre los elementos \textbf{i} y \textbf{N} y \textbf{$R_{u,N}$} la valoración del usuario del elemento \textbf{N}:
-\begin{equation}
-\displaystyle P_{u,i}={ \sum_N (S_{i,N})(R_{u,N}) \over \sum_N (S_{i,N})} 
-\end{equation}
-\item [Regresión.] Similar al modelo anterior, pero en lugar de sumar directamente las notas de los elementos similares se utiliza una aproximación basada en la recta de regresión. Con este método se intenta compensar un problema que se da al evaluar las similitudes mediante medidas del coseno o la correlación, y es que vectores con alta similitud pueden encontrarse distantes en sentido euclídeo. Se utiliza la misma fórmula que en el caso de la suma proporcionada pero sustituyendo:
-\begin{equation}
-\displaystyle  R_{u,N} \mbox{ por la ecuación }  \alpha \bar{R} i + \beta + \epsilon
-\end{equation}
-\end{description}
-
-\section{Ejemplos}
-Algunos ejemplos de sistemas de recomendación que actualmente funcionan en Internet y se mencionan en \citep{PerezCordon2008}, son los siguientes:
-\begin{description}
-
-\item[Fab.] El sistema de recomendación  Fab \citep{Balabanovic1997}, plantea que si únicamente recomienda a un usuario ítems similares a los que el mismo usuario ha preferido en el pasado, va limitándose a una sobre-especialización. Por otro lado,  si únicamente identifica usuarios cuyas preferencias son similares a los del usuario activo y recomienda los ítems que ellos han preferido, tiene el problema de que cuando aparecen nuevos ítems, no hay como recomendarlos hasta que alguien los use o se especifiquen  otros ítems similares; además, si hay usuarios con preferencias singulares no tendrán recomendaciones útiles. Entonces, Fab combina estas dos formas de recomendación, para lo cual, mantiene un perfil del usuario basado en el análisis del contenido, o sea de los ítems, y compara el perfil para determinar usuarios similares.
-
-\item[Referral Web.] Es un sistema interactivo para reconstruir, visualizar y buscar redes sociales en la web. Kautz observa que, como resultado de las actividades humanas, se forman redes alrededor de temas de trabajo pero también se forman redes sociales. Referral Web asocia temas con personas expertas en tales temas, entonces, buscar información se convierte en buscar, en la red social, un experto en el área, y la cadena de referencias personales, desde el buscador hasta el experto. Los sistemas de recomendación  proporcionan recomendaciones anónimas, en cambio Referral Web proporciona referencias mediante una cadena de individuos con nombre propio.
-
-\item [PHOAKS.]  People Helping One Another Know Stuff es un sistema de recomendación que reconoce y redistribuye recomendaciones de recursos de Web buscando en mensajes electrónicos \citep{Terveen1997}. Este sistema está basado en filtrado colaborativo, lo que hace posible que un grupo de personas hagan y reciban recomendaciones entre sí. Se distingue de otros sistemas por dos características principales: el rol de especialización y reuso. PHOAKS recomienda páginas de Web, búsca en los mensajes las opiniones que los participantes dejen acerca de estas páginas, y las selecciona si pasan ciertos requerimientos. La arquitectura de PHOAKS consiste en tres procesos principales: buscar mensajes con un patrón específico, clasificación de las instancias de los patrones y disposición de la información encontrada.
-
-\item [Siteseer.] Es un sistema que utiliza los registros de páginas favoritas (bookmarks) de un usuario y la organización de éstos registros para la recomendación de páginas de Web relevantes \citep{Rucker1997}, puesto que los registros representan interés en el contenido y su organización indica relevancia entre los elementos. Siteseer utiliza en método de filtrado colaborativo y recomienda al usuario las páginas de electrónicas de sus \textit{vecinos cercanos}.  
-
-\item[Amazon.] Es una compañía de comercio electrónico con sede en Seattle, estado de Washington, y fue una de las primeras grandes compañías en vender bienes a través de Internet. En la actualidad vende una gran variedad de productos, desde libros hasta ropa, pasando por artículos electrónicos, cds de música, software, muebles, comida, etc. Amazon se ha establecido en varios países como Canada, Reino Unido, Alemania, Austria, Francia, China y Japón para poder ofrecer los productos en estos países.  Amazon fue fundada como cadabra.com por Jeff Bezos en 1994 y lanzada en 1995. Cadabra.com comenzó como una librería en línea que tenía mas de 200.000 títulos que se podían comprar por correo electrónico. Tiempo después, su nombre fue cambiado a Amazon, por el río sudamericano del mismo nombre. Amazon implementa una gran variedad de sistemas de recomendación, tanto clásicos, como híbridos. Por ejemplo, parte de las recomendaciones que generan parecen estar hechas por un sistema de recomendación basado en contenido, que utiliza las descripciones de los productos valorados positivamente por el usuario para encontrar otros nuevos. Para valorar estos productos usa una escala de 1 al 5 de estrellas donde el uno es la valoración más baja y significa que no le ha gustado y el 5 la más alta.
-
 \item[Zagat.] Es una empresa americana fundada en 1979 por Tim y Nina Zagat que se dedica a la edición de todo tipo de guías de restaurantes, hoteles, clubes o tiendas de distintas ciudades de los Estados Unidos y Canadá \citep{Resnick1997}. En \textit{www.zagat.com} los usuarios registrados pueden votar distintos aspectos del local preferido y, además, introducir pequeños comentarios con su experiencia. En base a estas votaciones los responsables de la empresa asignan su puntuación en sus guías anuales y hacen recomendaciones individuales a sus usuarios a través de su web. Estas recomendaciones son hechas por un sistema de recomendación  colaborativo. Zagat es la página Web comercial que utiliza un sistema de recomendación colaborativo, donde las valoraciones de los restaurantes son actualizadas constantemente por los usuarios. Incluye muchas opciones de búsquedas avanzadas donde el usuario puede especificar sus criterios de búsqueda en categorías tales como comida, decoración, costos, etcétera, o restringir la búsqueda a cierta área o un tipo de cocina concreta.
 \end{description}
 
@@ -487,289 +328,6 @@ Zagat  & Numérica: 0-3. & Explícita. & Pseudónimo. & Por usuario, valora todo
 \end{center}
 \end{small}
 \end{table}
-
-\section{Lógica difusa}
-
-La lógica difusa o lógica heurística\footnote{No necesariamente es heurística en todos los problemas donde se aplica este concepto. La lógica difusa se basa en la experiencia humana para definir un problema de forma imprecisa, pero si el problema es complejo para llegar a una solución requiere de otros métodos (usualmente matemáticos) que no se basan en heurística.} se basa en lo relativo de lo observado \citep{wikipedia2}. Este tipo de lógica toma dos valores aleatorios, pero contextualizados y referidos entre sí. Así, por ejemplo, una persona que mida 2 metros es claramente una persona alta, si previamente se ha tomado el valor de persona baja y se ha establecido en 1 metro. Ambos valores están contextualizados a personas y referidos a una medida métrica lineal.
-\paragraph{}
-La lógica difusa se adapta mejor al mundo real en el que vivimos e incluso puede comprender y funcionar con nuestras expresiones, del tipo \textit{hace mucho calor}, \textit{no es muy alto}, el ritmo del corazón está \textit{un poco acelerado}, etcétera. La clave de esta adaptación al lenguaje, se basa en comprender los cuantificadores de nuestro lenguaje (\textit{mucho}, \textit{muy} y  \textit{un poco}).
-\paragraph{}
-En la teoría de conjuntos difusos se definen también las operaciones de unión, intersección, diferencia, negación o complemento, y otras operaciones sobre conjuntos en los que se basa esta lógica.
-Para cada conjunto difuso, existe asociada una función de pertenencia para sus elementos, que indican en qué medida el elemento forma parte de ese conjunto difuso. Las formas de las funciones de pertenencia más típicas son trapezoidal, lineal y curva (gaussiana).
-
-\subsection{Sistemas de Inferencia Difuso}
-
-El \textbf{Sistema de Inferencia Difuso} (FIS por sus siglas en inglés) es un framework de computación popular basado en los conceptos de Teoría de conjuntos difusos, reglas difusas \textbf{si-entonces} y razonamiento difuso \citep{Jang1997}.
-\paragraph{}
-Se han desarrollado aplicaciones exitosas en una amplia  variedad de campos, tal como el control automático, clasificación de datos, análisis de decisión, sistemas expertos, predicción de series de tiempo, robótica y patrones de reconocimiento. 
-Debido a su carácter multidisciplinario, el  sistema de inferencia difuso es reconocido también como sistema basado en reglas difusas, sistema experto difuso, modelo difuso, memoria asociativa difusa, controlador lógico difuso, y simplemente (sin ambigüedades) sistema difuso.
-\paragraph{}
-La \textbf{estructura básica} de un sistema de inferencia difuso consiste de tres componentes conceptuales: 
-\begin{enumerate}
-\item Una regla base que contiene una selección de reglas difusas.
-\item Una base de datos (o diccionario) que define las funciones de membresía usadas en las reglas difusas.
-\item Un mecanismo de razonamiento que realiza el procedimiento de inferencia y hechos dados para obtener una salida razonable o conclusión.
-\end{enumerate}
-\paragraph*{}
-
-El sistema de inferencia difuso básico puede tomar entradas difusas o entradas numéricas (vistas como singletons), pero las salidas que produce son casi siempre conjuntos difusos.\\
-Algunas veces es necesario  que tenga una valor numérico, especialmente en una situación donde un sistema de inferencia difuso es usado como controlador. Por lo tanto,  necesitamos un método de defuzificacion para extraer un valor que mejor represente al conjunto difuso. 
-\paragraph{}
-Un sistema de inferencia difuso  con una salida de un valor numérico se muestra en la figura \ref{fig:fuzzy11} \citep{Jang1997} donde la línea discontinua indica un sistema de inferencia difuso básico con salida difusa y el bloque de defuzificación  responde al propósito de transformar un conjunto difuso de salida en un sólo valor. \\
-
-\begin{figure}[H] 
- \centering 
-\framebox{
-\includegraphics[width=0.6\textwidth]{./images/fuzzy11.pdf} 
-} \caption{Diagrama de bloques para un Sistema de Inferencia Difuso.} 
- \label{fig:fuzzy11} 
-\end{figure}
-
-\paragraph{}
-Con entradas y salidas numéricas, un sistema de inferencia difuso implementa un mapeo no lineal de su espacio de entrada a su espacio de salida. Este mapeo es realizado por un número de reglas difusas \textbf{si-entonces}, cada una de ellas describe el comportamiento local del  mapeo. En particular, el antecedente de  una regla define  una región difusa en el espacio de entrada, mientras el consecuente especifica la salida en la región difusa.
-
-\subsubsection{Sistema difuso tipo Mamdani}
-
-Si adoptamos máximos y productos algebraicos como de elección para los operadores \textbf{T-norm} y \textbf{T-conorm}, respectivamente, y usamos la composición \textbf{máximo-producto} en lugar  de la composición original \textbf{máximo-mínimo}, entonces el resultado del razonamiento difuso se muestra en la figura \ref{fig:fuzzy22} \citep{Jang1997}, donde la salida inferida de cada regla es un conjunto difuso  reducido por su fuerza de disparo a través del producto algebráico.  Otras variantes son posibles si se usan diferentes operadores \textbf{T-norm} y \textbf{T-conorms}. \\
-
-\begin{figure}[H] 
- \centering 
-\framebox{
-\includegraphics[width=0.6\textwidth]{./images/fuzzy22.pdf} 
-} \caption{Sistema de inferencia difuso tipo Mamdani usando producto y máximo.} 
- \label{fig:fuzzy22} 
-\end{figure}
-
-\subsubsection{Sistema difuso tipo Sugeno}
-
-El modelo difuso Sugeno fue propuesto por \textit{Takagi Sugeno y Kang} en un esfuerzo por desarrollar un enfoque sistemático para la generación de reglas difusas a partir de \textit{entradas-salidas} de un conjunto de datos. Una típica regla difusa en un modelo difuso Sugeno tiene la forma:
-\begin{verbatim}
-Si x  es  A  y  y  es  B  entonces  z=f(x, y),
-\end{verbatim}
-\paragraph{}
-Donde \textbf{A} y \textbf{B} son conjuntos difusos en el antecedente,  mientras \textbf{z = f (x, y)} es una función en el consecuente como se muestra en la figura \ref{fig:fuzzy33} \citep{Jang1997}. Usualmente \textbf{f (x, y)} es un polinomio en las variables de entrada \textbf{x} y \textbf{y}, pero puede ser alguna función siempre y cuando apropiadamente pueda  describir  la salida del modelo dentro de la región difusa especificada por el antecedente de la regla. Cuando \textbf{f (x, y)} es polinomio de primer orden,  el resultado del sistema de inferencia difuso es llamado modelo difuso Sugeno de primer orden.
-\paragraph{}
-Cuando la función es constante tenemos un modelo difuso Sugeno de orden cero, el cual puede ser visto como un caso especial del sistema de inferencia difuso Mamdani, en el cual cada consecuente de la regla es especificado por un \textbf{singleton difuso.}\\
-Las salidas de un modelo Sugeno de orden cero es una función numérica de sus variables de entrada siempre que las funciones de membresía vecinas en el antecedente tengan suficiente traslape.\\
-
-\begin{figure}[H] 
- \centering 
-\framebox{
-\includegraphics[width=0.6\textwidth]{./images/fuzzy33.pdf} 
-} \caption{Sistema de Inferencia Difuso tipo Sugeno.} 
- \label{fig:fuzzy33} 
-\end{figure}
-
-
-\chapter[Arquitectura]{Arquitectura}
-
-\section{Modelo de datos}
-
-Cada  restaurante tiene sus propias características que lo hacen diferente a los demás, este modelo permite la manipulación de estas características. Dentro de los \textbf{atributos} encontramos ocho agrupaciones, de las cuales se derivan todos los servicios que puede tener un restaurante (salones, ambiente, calidad, etcétera). La variedad de tipos de cocina es adaptable a los usuarios ya que es bastante amplia.  
-\paragraph{}
-Para el usuario, permite la definición de sus gustos a través de un \textbf{perfil}, encontramos contenedores  para manipular los restaurantes que son de su agrado, que le disgustan o que le interesaría conocer.
-Así también el modelo permite almacenar \textbf{reseñas} (opiniones) de restaurantes que cada usuario puede compartir con los demás usuarios registrados.
-\paragraph{}
-El modelo de datos representado en la figura \ref{fig:bd} \citep{Garciavaldez2009} es fácilmente adaptable a la adición de nuevos grupos de servicios y tipos de cocina para ampliar la variedad en ambos casos y ofrecer mejores recomendaciones. \\
-
-\begin{figure}[H] 
- \centering 
-\framebox{
-\includegraphics[width=0.9\textwidth]{./images/bd.pdf} 
-}\caption{Modelo de datos del sistema.} 
- \label{fig:bd} 
-\end{figure}
-
-\section{Sistema de recomendación híbrido}
-
-En este sistema de recomendación se ha implementado un \textbf{modelo de hibridación mediante pesos} \citep{Burke2002}, este mecanismo hace que los algoritmos de recomendación generen recomendaciones simultáneamente las cuales son  evaluadas para asignarle un peso a cada recomendación. La predicción final se calcula a partir del promedio de los pesos de las recomendaciones generadas  por los algoritmos.
-\paragraph{}
-Los algoritmos de recomendación utilizados son el \textbf{colaborativo} y el \textbf{basado en contenido}. El filtrado colaborativo toma la información de la \textbf{matriz de valoraciones} y en base al algoritmo de \textbf{k} vecinos más cercanos recomienda restaurantes al usuario.  El basado en contenido utiliza las \textbf{características} de los restaurantes  para buscar en la base de datos los restaurantes más parecidos a los que ha valorado positivamente el usuario activo.  A continuación se describen más detalladamente estos algoritmos.
-
-\subsection{Módulo de filtrado colaborativo}
-
-El filtrado colaborativo agrega valoraciones o recomendaciones de los objetos, identifica los gustos comunes de los usuarios basándose en sus valoraciones y genera una nueva recomendación tomando en cuenta las comparaciones entre los usuarios. El perfil del usuario consiste en un vector de objetos \textbf{$\displaystyle I = [ i_{1}, i_{2},...i_{n}] $} y las valoraciones de los usuarios  \textbf{$\displaystyle U = [ u_{1}, u_{2},...u_{m}]$} entonces el perfil del usuario activo lo representa como:
-
-\begin{equation}
-\displaystyle U_{j} = [u^{j}_{1}, u^{j}_{2},...u^{j}_{n}]
-\end{equation}
-
-\paragraph{}
-Se utiliza el algoritmo de \textbf{K} vecinos más cercanos para identificar los usuarios con preferencias similares al usuario activo y así generar una lista de recomendaciones conocida como \textbf{Top-N}.
-El sistema obtiene la similaridad entre el usuario activo y los demás usuarios utilizando la \textbf{correlación de Pearson} especificada abajo.  Esta refleja los restaurantes que son preferidos por el usuario. 
-
-\begin{equation}
-\displaystyle
-P(I_{x}, I_{y}) = {\sum_{i=1}^{n}(I_{xi} - \overline{I})^2 (I_{yi}- \overline{I})^2 \over  
-\sqrt{\sum_{i=1}^{n}(I_{xi}- \overline{I})^2 \sum_{i=1}^{n}(I_{yi}- \overline{I})^2}}
-\end{equation}
-
-\paragraph{}
-Esquemáticamente  podemos ver el funcionamiento del filtrado colaborativo en la figura \ref{fig:filtradoColaborativo} que se muestra abajo. El algoritmo obtiene la lista \textbf{Top-N} para el usuario activo, el cual es utilizado como parámetro en el sistema de inferencia difuso que obtiene una recomendación final  mediante el promedio de pesos como en \citep{Garciavaldez2009}.
-
-\begin{figure}[H] 
-\centering 
-\framebox{
-\includegraphics[width=0.6\textwidth]{./images/filtradoColaborativo.pdf} 
-} \caption{Esquema de funcionamiento del algoritmo de filtrado colaborativo.} 
-\label{fig:filtradoColaborativo} 
-\end{figure}
-
-\subsection{Módulo basado en contenido}
-
-El algoritmo basado en contenido analiza las descripciones de los restaurantes que han sido valorados positivamente por el usuario. Utiliza \textbf{vectores binarios} para representar el perfil de cada restaurante. Las características que se definen en el perfil son el \textbf{rango de precios, el tipo de cocina} y los \textbf{servicios} que ofrece un  restaurante en particular. El proceso del algoritmo se muestra en la figura \ref{fig:basadoContenido} mostrada abajo.\\
-
-\begin{figure}[H] 
-\centering 
-\framebox{
-\includegraphics[width=0.6\textwidth]{./images/basadoContenido.pdf} 
-} \caption{Esquema de funcionamiento del algoritmo basado en contenido.} 
-\label{fig:basadoContenido} 
-\end{figure}
-
-\paragraph{}
-El proceso es repetitivo para cada una de las preferencias del usuario, es decir, los restaurantes que el usuario activo ha votado con una valoración alta, y así hasta obtener la lista de recomendaciones \textbf{(Top-N)}, también será utilizada como un parámetro dentro del sistema de inferencia difuso para la recomendación final. La distancia entre los restaurantes es calculada con la \textbf{similaridad de cosenos}:
-
-\begin{equation}
-\displaystyle
- S(I_{x},I_{y})= Cos (\vec{I_{x}}, \vec{I_{y}}) ={\vec{I_{x}} \cdot  \vec{I_{y}} \over \parallel \vec{I_{x}} \parallel_{2} \cdot \parallel \vec{I_{y}} \parallel_{2}} = {\sum_{i=1}^{n} I_{i,x} I_{i,y} \over \sqrt{\sum_{i=1}^{n} I_{i,x}^{2}} \sqrt{\sum_{i=1}^{n} I_{i,y}^{2}}} 
-\end{equation}
-\paragraph{}
-Esta fórmula obtiene la correlación entre vectores de perfil y permite identificar cuáles son los restaurantes más parecidos que serán listados para la recomendación.
-
-\section{Sistema difuso para la selección de recomendación}
-
-En la arquitectura se define un \textbf{sistema difuso experto} en el sistema de recomendación (módulo de recomendaciones de inferencia difuso) se muestra en la figura \ref{fig:fisExperto}. \\
-
-\begin{figure}[H] 
-\centering 
-\framebox{
-\includegraphics[width=0.7\textwidth]{./images/fisExperto.pdf} 
-} \caption{Sistema de inferencia difuso del experto.} 
-\label{fig:fisExperto} 
-\end{figure}
-
-\paragraph{}
-Este sistema difuso basa sus recomendaciones en tres parámetros de entrada que son el \textbf{promedio de valoraciones} (rating), el \textbf{rango de precios} (price) y el \textbf{total de votos} (votes) estas características son obtenidas de cada restaurante de la base de datos y el sistema las utiliza para obtener una recomendación.
-Este sistema difuso funciona como un \textbf{experto en restaurantes}, identifica la calidad de la comida, el buen servicio en un restaurant, los precios adecuados y demás aspectos que son importantes para los clientes que visitan un establecimiento.
-\paragraph*{}
-Considerando los parámetros de entrada mencionados anteriormente, este sistema difuso se basa en  5 reglas:
-
-\begin{enumerate}
-\item \textit{if rating is high and price is low then recommendation is high.}
-\item \textit{if rating is high and votes is sufficient then recommendation is high.}    
-\item \textit{if rating is high and votes is insufficient then recommendation is medium.}    
-\item \textit{if rating is low and price is high then recommendation is low.}   
-\item \textit{if rating is low and votes is insufficient then recommendation is low.}
-\end{enumerate}
-
-Estas reglas están basadas en la experiencia de un experto en el área, en lenguaje natural expresan lo siguiente:
-
-\begin{enumerate}
-\item \textit{Si la valoración es alta y el rango de precios es bajo entonces la recomendación es alta.}
-\item \textit{Si la valoración es alta y la cantidad de votos es suficiente entonces la recomendación es alta.}
-\item \textit{Si la valoración es alta y el rango de precios es bajo entonces la recomendación es alta.}
-\item \textit{Si la valoración es alta y el rango de precios es alto entonces la recomendación es baja.}
-\item \textit{Si la valoración es baja y la cantidad de votos es insuficiente entonces la recomendación es baja.}
-\end{enumerate}
-\paragraph{}
-Como se observa en las reglas,  el experto asigna más peso al promedio de las valoraciones de los usuarios que han votado un restaurante en particular. La recomendación del experto tendrá un alto valor solamente cuando se dispare alguna de las dos primeras reglas.
-\paragraph{}
-En la figura \ref{fig:fisIntegrador} se define segundo sistema de inferencia difuso que, en base a la información de usuarios y restaurantes, asignará un peso a cada recomendación generada por los algoritmos, estos pesos son necesarios para obtener un promedio y generar una recomendación.  \\
-
-\begin{figure}[H] 
-\centering 
-\framebox{
-\includegraphics[width=0.7\textwidth]{./images/fisIntegrador.pdf} 
-} \caption{Sistema de inferencia difuso para asignar pesos a los algoritmos.} 
-\label{fig:fisIntegrador} 
-\end{figure}
-
-Este sistema difuso esta basado en 12 reglas expresadas de la siguiente manera:
-
-\begin{enumerate}
-\item \textit{if userSimilarity is low and restSimilarity is low 
- and participation is insufficient then expert is high 
- and restProfile is low and correlation is low.}
- 
-\item \textit{if userSimilarity is low and restSimilarity is low 
- and participation is sufficient then expert is low 
- and restProfile is low and correlation is high.}
- 
-\item \textit{if userSimilarity is low and restSimilarity is low 
- and participation is minimum then expert is low 
- and restProfile is low and correlation is high.}
- 
-\item \textit{if userSimilarity is low and restSimilarity is high 
- and participation is insufficient then expert is low 
- and restProfile is high and correlation is low.}
- 
-\item \textit{if userSimilarity is low and restSimilarity is high 
- and participation is minimum then expert is low
- and restProfile is high and correlation is low.}
-   
-\item \textit{if userSimilarity is low and restSimilarity is high
- and participation is sufficient then expert is low 
- and restProfile is high and correlation is low.}   
- 
-\item \textit{if userSimilarity is high and restSimilarity is low 
- and participation is insufficient then expert is low 
- and restProfile is low and correlation is high.}     
-   
-\item \textit{if userSimilarity is high and restSimilarity is low 
- and participation is minimum then expert is low 
- and restProfile is low and correlation is high.}  
- 
-\item \textit{if userSimilarity is high and restSimilarity is low 
- and participation is sufficient then expert is low 
- and restProfile is low and correlation is high.}
-    
-\item \textit{if userSimilarity is high and restSimilarity is high 
- and participation is insufficient then expert is low 
- and restProfile is low and correlation is high.}
- 
-\item \textit{if userSimilarity is high and restSimilarity is high 
- and participation is minimum then expert is low 
- and restProfile is low and correlation is high.}
- 
-\item \textit{if userSimilarity is high and restSimilarity is high 
- and participation is sufficient then expert is low 
- and restProfile is low and correlation is high.}
-
-\end{enumerate}
-\paragraph*{}
-Estas reglas en lenguaje natural expresan lo siguiente:
-
-\begin{enumerate}
-\item \textit{Si la similaridad del usuario es baja y la similaridad de restaurantes es baja y la participación es insuficiente, entonces el experto es alto y el perfil del restaurante es bajo y la correlación es baja. }  
-\item \textit{Si la similaridad del usuario es baja y la similaridad de restaurantes es baja y la participación es suficiente, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.}   
-\item \textit{Si la similaridad del usuario es baja y la similaridad de restaurantes es baja y la participación es mínima, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.}
-\item \textit{Si la similaridad del usuario es baja y la similaridad de restaurantes es alta y la participación es insuficiente, entonces el experto es bajo y el perfil del restaurante es alto y la correlación es baja.}   
-\item \textit{Si la similaridad del usuario es baja y la similaridad de restaurantes es alta y la participación es mínima, entonces el experto es bajo y el perfil del restaurante es alto y la correlación es baja.}   
-\item  \textit{Si la similaridad del usuario es baja y la similaridad de restaurantes es alta y la participación es suficiente, entonces el experto es bajo y el perfil del restaurante es alto y la correlación es baja.}  
-\item \textit{Si la similaridad del usuario es alta y la similaridad de restaurantes es baja y la participación es insuficiente, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.}
-\item \textit{Si la similaridad del usuario es alta y la similaridad de restaurantes es baja y la participación es mínima, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.}
-\item \textit{Si la similaridad del usuario es alta y la similaridad de restaurantes es baja y la participación es suficiente, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.} 
-\item \textit{Si la similaridad del usuario es alta y la similaridad de restaurantes es alta y la participación es insuficiente, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.}
-\item  \textit{Si la similaridad del usuario es alta y la similaridad de restaurantes es alta y la participación es mínima, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.}
-\item \textit{Si la similaridad del usuario es alta y la similaridad de restaurantes es alta y la participación es suficiente, entonces el experto es bajo y el perfil del restaurante es bajo y la correlación es alta.}  
-\end{enumerate}
-
-De acuerdo a las reglas  definidas en el sistema difuso se da un mayor peso a la correlación obtenida del \textbf{algoritmo de filtrado colaborativo} (userSimilarity) ésta las obtiene comparando el perfil del usuario activo con todos los demás, para así obtener las más altas que implica la selección de vecinos más cercanos.\\
-Para obtener la similaridad entre los restaurantes (restSimilarity) el sistema utiliza el \textbf{algorimo basado en contenido}, este se encarga de obtener la correlación de los vectores binarios que representan el perfil de cada restaurante.
-\paragraph{}
-Finalmente la participación es el total de votos, mediante una función obtenemos el conteo de los votos del usuario activo y esto nos servirá para  determinar el peso de cada recomendación generada con los diferentes algoritmos.
-
-La figura \ref{fig:arquitectura} muestra la arquitectura del sistema que representa el proceso de recomendación.
-
-\begin{figure}[H] 
-\centering 
-\framebox{
-\includegraphics[width=0.9\textwidth]{./images/arquitectura2.pdf} 
-} \caption{Arquitectura del sistema de recomendación.} 
-\label{fig:arquitectura} 
-\end{figure}
-
 
 \chapter[Recomet: Recomendaciones de Tijuana]{Recomet}
 
